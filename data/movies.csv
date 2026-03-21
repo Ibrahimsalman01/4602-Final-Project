@@ -5,15 +5,11 @@ movie_id,title,release_date,decade,genre
 278,The Shawshank Redemption,1994-09-23,1990,Drama
 36568,Paulie,1998-04-17,1990,Drama
 428390,Stereotype,1997-11-30,1990,Drama
-36568,Paulie,1998-04-17,1990,Comedy
-428390,Stereotype,1997-11-30,1990,Comedy
 680,Pulp Fiction,1994-09-10,1990,Comedy
 337170,American Made,2017-08-18,2010,Action
 24428,The Avengers,2012-04-25,2010,Action
 299536,Avengers: Infinity War,2018-04-25,2010,Action
-337170,American Made,2017-08-18,2010,Drama
 227156,The Giver,2014-08-13,2010,Drama
 157336,Interstellar,2014-11-05,2010,Drama
-337170,American Made,2017-08-18,2010,Comedy
 244458,The Voices,2014-01-19,2010,Comedy
 269149,Zootopia,2016-02-11,2010,Comedy

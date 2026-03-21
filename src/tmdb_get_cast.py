@@ -30,6 +30,7 @@ for g in genre_data["genres"]:
 
 movies_rows = []
 cast_rows = []
+seen_movie_ids = set()
 
 for decade in DECADES:
     start_year = decade
@@ -51,6 +52,10 @@ for decade in DECADES:
 
         for movie in results:
             movie_id = movie["id"]
+
+            if movie_id in seen_movie_ids: continue
+            seen_movie_ids.add(movie_id)
+
             title = movie.get("title", "")
             release_date = movie.get("release_date", "")
 
