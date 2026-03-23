@@ -7,7 +7,7 @@ API_TOKEN = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJjYmQ1ZjIwYzk3MGIyYjkyZDg5NzYzMWM4YT
 DECADES = [1990, 2010]
 GENRES = ["Action", "Drama", "Comedy"]
 
-MOVIES_PER_GENRE = 3
+MOVIES_PER_GENRE = 10
 TOP_CAST = 5
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 OUTPUT_DIR = os.path.join(BASE_DIR, "data")
@@ -23,7 +23,9 @@ def get_json(url, params=None):
     r = requests.get(url, headers=HEADERS, params=params)
     return r.json()
 
+print("Loading genre list...", flush=True)
 genre_data = get_json(f"{BASE_URL}/genre/movie/list")
+
 genre_map = {}
 for g in genre_data["genres"]:
     genre_map[g["name"].lower()] = g["id"]
@@ -37,27 +39,48 @@ for decade in DECADES:
     end_year = decade + 9
 
     for genre_name in GENRES:
+        print(f"Getting {genre_name} movies from {decade}s...", flush=True)
+
         genre_id = genre_map[genre_name.lower()]
 
-        params = {
-            "with_genres": genre_id,
-            "primary_release_date.gte": f"{start_year}-01-01",
-            "primary_release_date.lte": f"{end_year}-12-31",
-            "sort_by": SORT_BY,
-            "page": 1
-        }
+        page = 1
+        selected_movies = []
 
-        data = get_json(f"{BASE_URL}/discover/movie", params=params)
-        results = data["results"][:MOVIES_PER_GENRE]
+        while len(selected_movies) < MOVIES_PER_GENRE:
+            params = {
+                "with_genres": genre_id,
+                "primary_release_date.gte": f"{start_year}-01-01",
+                "primary_release_date.lte": f"{end_year}-12-31",
+                "sort_by": SORT_BY,
+                "page": page
+            }
 
-        for movie in results:
+            data = get_json(f"{BASE_URL}/discover/movie", params=params)
+            results = data.get("results", [])
+
+            if not results:
+                break
+
+            for movie in results:
+                movie_id = movie["id"]
+
+                if movie_id in seen_movie_ids:
+                    continue
+
+                seen_movie_ids.add(movie_id)
+                selected_movies.append(movie)
+
+                if len(selected_movies) == MOVIES_PER_GENRE:
+                    break
+
+            page += 1
+
+        for i, movie in enumerate(selected_movies, start=1):
             movie_id = movie["id"]
-
-            if movie_id in seen_movie_ids: continue
-            seen_movie_ids.add(movie_id)
-
             title = movie.get("title", "")
             release_date = movie.get("release_date", "")
+
+            print(f"  [{i}/{len(selected_movies)}] {title}", flush=True)
 
             movies_rows.append({
                 "movie_id": movie_id,
@@ -96,4 +119,4 @@ with open(f"{OUTPUT_DIR}/cast.csv", "w", newline="", encoding="utf-8") as f:
     writer.writeheader()
     writer.writerows(cast_rows)
 
-print(f"movies.csv and cast.csv saved in: {OUTPUT_DIR}")
+print(f"Done. Files saved in: {OUTPUT_DIR}", flush=True)
