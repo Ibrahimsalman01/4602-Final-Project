@@ -1,61 +1,121 @@
 movie_id,title,release_date,decade,genre
-10538,Passenger 57,1992-11-06,1990,Action
 603,The Matrix,1999-03-31,1990,Action
+280,Terminator 2: Judgment Day,1991-07-03,1990,Action
 101,Léon: The Professional,1994-09-14,1990,Action
 564,The Mummy,1999-04-16,1990,Action
-280,Terminator 2: Judgment Day,1991-07-03,1990,Action
 949,Heat,1995-12-15,1990,Action
 18,The Fifth Element,1997-05-02,1990,Action
-11198,City Hunter,1993-01-14,1990,Action
+607,Men in Black,1997-07-02,1990,Action
 2109,Rush Hour,1998-09-18,1990,Action
+9737,Bad Boys,1995-04-07,1990,Action
+9323,Ghost in the Shell,1995-11-18,1990,Action
+1893,Star Wars: Episode I - The Phantom Menace,1999-05-19,1990,Action
 197,Braveheart,1995-05-24,1990,Action
+37135,Tarzan,1999-06-17,1990,Action
+954,Mission: Impossible,1996-05-22,1990,Action
+754,Face/Off,1997-06-27,1990,Action
+861,Total Recall,1990-06-01,1990,Action
+66245,Arunachalam,1997-04-10,1990,Action
+602,Independence Day,1996-06-25,1990,Action
+36647,Blade,1998-08-21,1990,Action
+2061,Pusher,1996-08-30,1990,Action
 278,The Shawshank Redemption,1994-09-23,1990,Drama
-36568,Paulie,1998-04-17,1990,Drama
 597,Titanic,1997-12-18,1990,Drama
-428390,Stereotype,1997-11-30,1990,Drama
-1813,The Devil's Advocate,1997-10-17,1990,Drama
-424,Schindler's List,1993-12-15,1990,Drama
 497,The Green Mile,1999-12-10,1990,Drama
-13,Forrest Gump,1994-06-23,1990,Drama
 769,GoodFellas,1990-09-12,1990,Drama
 550,Fight Club,1999-10-15,1990,Drama
+424,Schindler's List,1993-12-15,1990,Drama
+13,Forrest Gump,1994-06-23,1990,Drama
+8587,The Lion King,1994-06-15,1990,Drama
+82545,Texasville,1990-09-28,1990,Drama
+9769,Lolita,1997-09-27,1990,Drama
+717586,The Alchemy of Ecstasy,1999-01-01,1990,Drama
+79871,Crazy Love,1993-04-17,1990,Drama
+489,Good Will Hunting,1997-12-05,1990,Drama
+105825,Erotic Ghost Story III,1992-03-05,1990,Drama
+244748,Swan Song,1992-01-01,1990,Drama
+857,Saving Private Ryan,1998-07-24,1990,Drama
+60898,Erotic Ghost Story,1990-05-19,1990,Drama
+4951,10 Things I Hate About You,1999-03-30,1990,Drama
+37165,The Truman Show,1998-06-04,1990,Drama
+637,Life Is Beautiful,1997-12-20,1990,Drama
 680,Pulp Fiction,1994-09-10,1990,Comedy
-10154,Mickey Blue Eyes,1999-08-16,1990,Comedy
 862,Toy Story,1995-11-22,1990,Comedy
-1624,Liar Liar,1997-03-21,1990,Comedy
-1283,Torrente: The Dumb Arm of the Law,1998-03-13,1990,Comedy
 863,Toy Story 2,1999-10-30,1990,Comedy
 854,The Mask,1994-07-29,1990,Comedy
-37165,The Truman Show,1998-06-04,1990,Comedy
+249371,Spider and Rose,1994-09-14,1990,Comedy
+11970,Hercules,1997-06-13,1990,Comedy
+19404,Dilwale Dulhania Le Jayenge,1995-10-20,1990,Comedy
 2105,American Pie,1999-07-09,1990,Comedy
-637,Life Is Beautiful,1997-12-20,1990,Comedy
+772,Home Alone 2: Lost in New York,1992-11-15,1990,Comedy
+8467,Dumb and Dumber,1994-12-16,1990,Comedy
+9820,The Parent Trap,1998-07-28,1990,Comedy
+10830,Matilda,1996-08-02,1990,Comedy
+115,The Big Lebowski,1998-03-06,1990,Comedy
+788,Mrs. Doubtfire,1993-11-24,1990,Comedy
+137,Groundhog Day,1993-02-11,1990,Comedy
+10897,The Little Rascals,1994-08-05,1990,Comedy
+879,Hook,1991-04-10,1990,Comedy
+9487,A Bug's Life,1998-11-25,1990,Comedy
+10607,Don't Be a Menace to South Central While Drinking Your Juice in the Hood,1996-01-12,1990,Comedy
+11104,Chungking Express,1994-07-14,1990,Comedy
+646315,The Legendary Lighter,2019-10-29,2010,Action
 24428,The Avengers,2012-04-25,2010,Action
-337170,American Made,2017-08-18,2010,Action
 299536,Avengers: Infinity War,2018-04-25,2010,Action
-461955,Rakka,2017-06-14,2010,Action
-315635,Spider-Man: Homecoming,2017-07-05,2010,Action
 181808,Star Wars: The Last Jedi,2017-12-13,2010,Action
+374720,Dunkirk,2017-07-19,2010,Action
+315635,Spider-Man: Homecoming,2017-07-05,2010,Action
 27205,Inception,2010-07-15,2010,Action
-429617,Spider-Man: Far From Home,2019-06-28,2010,Action
-324857,Spider-Man: Into the Spider-Verse,2018-12-06,2010,Action
 299534,Avengers: Endgame,2019-04-24,2010,Action
-227156,The Giver,2014-08-13,2010,Drama
-397805,Brothers,2015-09-12,2010,Drama
+171776,Sparks,2013-03-01,2010,Action
+324857,Spider-Man: Into the Spider-Verse,2018-12-06,2010,Action
+102382,The Amazing Spider-Man 2,2014-04-16,2010,Action
+76341,Mad Max: Fury Road,2015-05-13,2010,Action
+49026,The Dark Knight Rises,2012-07-17,2010,Action
+429617,Spider-Man: Far From Home,2019-06-28,2010,Action
+1930,The Amazing Spider-Man,2012-06-23,2010,Action
+122917,The Hobbit: The Battle of the Five Armies,2014-12-10,2010,Action
+10138,Iron Man 2,2010-04-28,2010,Action
+351286,Jurassic World: Fallen Kingdom,2018-06-06,2010,Action
+177572,Big Hero 6,2014-10-24,2010,Action
+271110,Captain America: Civil War,2016-04-27,2010,Action
 157336,Interstellar,2014-11-05,2010,Drama
-225278,Run,2012-10-18,2010,Drama
-507787,Murdered at 17,2018-07-07,2010,Drama
-585261,Virus,2019-06-07,2010,Drama
+475557,Joker,2019-10-01,2010,Drama
 496243,Parasite,2019-05-30,2010,Drama
-588787,Ordinary Love,2019-12-06,2010,Drama
-542559,Last Summer,2018-06-07,2010,Drama
-434714,My Days of Mercy,2018-03-31,2010,Drama
-244458,The Voices,2014-01-19,2010,Comedy
+372058,Your Name.,2016-08-26,2010,Drama
+335984,Blade Runner 2049,2017-10-04,2010,Drama
+245700,Mr. Turner,2014-10-31,2010,Drama
+324786,Hacksaw Ridge,2016-10-07,2010,Drama
+106646,The Wolf of Wall Street,2013-12-25,2010,Drama
+244786,Whiplash,2014-10-10,2010,Drama
+286687,Love Lesson,2013-12-05,2010,Drama
+216015,Fifty Shades of Grey,2015-02-11,2010,Drama
+150540,Inside Out,2015-06-17,2010,Drama
+273248,The Hateful Eight,2015-12-25,2010,Drama
+331482,Little Women,2019-12-25,2010,Drama
+329865,Arrival,2016-11-10,2010,Drama
+228150,Fury,2014-10-15,2010,Drama
+269955,Obsessed,2014-05-14,2010,Drama
+286217,The Martian,2015-09-30,2010,Drama
+447332,A Quiet Place,2018-04-03,2010,Drama
+205596,The Imitation Game,2014-11-14,2010,Drama
 269149,Zootopia,2016-02-11,2010,Comedy
-101519,A Fantastic Fear of Everything,2012-06-07,2010,Comedy
-286687,Love Lesson,2013-12-05,2010,Comedy
-424619,The Magic Tuche,2018-01-31,2010,Comedy
-254023,The Humbling,2014-12-31,2010,Comedy
-254472,Stung,2015-07-03,2010,Comedy
 567609,Ready or Not,2019-08-21,2010,Comedy
-150540,Inside Out,2015-06-17,2010,Comedy
-106646,The Wolf of Wall Street,2013-12-25,2010,Comedy
+378236,The Emoji Movie,2017-07-23,2010,Comedy
+293660,Deadpool,2016-02-09,2010,Comedy
+82690,Wreck-It Ralph,2012-11-01,2010,Comedy
+284053,Thor: Ragnarok,2017-10-02,2010,Comedy
+214756,Ted 2,2015-06-25,2010,Comedy
+297090,The Torture Club,2014-07-19,2010,Comedy
+466272,Once Upon a Time... in Hollywood,2019-07-24,2010,Comedy
+313369,La La Land,2016-12-01,2010,Comedy
+383498,Deadpool 2,2018-05-15,2010,Comedy
+546554,Knives Out,2019-11-27,2010,Comedy
+10193,Toy Story 3,2010-06-16,2010,Comedy
+77338,The Intouchables,2011-11-02,2010,Comedy
+72105,Ted,2012-06-29,2010,Comedy
+384018,Fast & Furious Presents: Hobbs & Shaw,2019-07-31,2010,Comedy
+301528,Toy Story 4,2019-06-19,2010,Comedy
+120467,The Grand Budapest Hotel,2014-02-26,2010,Comedy
+260514,Cars 3,2017-06-15,2010,Comedy
+49013,Cars 2,2011-06-11,2010,Comedy

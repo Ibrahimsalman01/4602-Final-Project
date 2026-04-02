@@ -1,14 +1,14 @@
 movie_id,title,actor_id,actor_name
-10538,Passenger 57,10814,Wesley Snipes
-10538,Passenger 57,27422,Bruce Payne
-10538,Passenger 57,3197,Tom Sizemore
-10538,Passenger 57,46924,Alex Datcher
-10538,Passenger 57,21089,Bruce Greenwood
 603,The Matrix,6384,Keanu Reeves
 603,The Matrix,2975,Laurence Fishburne
 603,The Matrix,530,Carrie-Anne Moss
 603,The Matrix,1331,Hugo Weaving
 603,The Matrix,9364,Gloria Foster
+280,Terminator 2: Judgment Day,1100,Arnold Schwarzenegger
+280,Terminator 2: Judgment Day,2713,Linda Hamilton
+280,Terminator 2: Judgment Day,820,Edward Furlong
+280,Terminator 2: Judgment Day,418,Robert Patrick
+280,Terminator 2: Judgment Day,2716,Earl Boen
 101,Léon: The Professional,1003,Jean Reno
 101,Léon: The Professional,524,Natalie Portman
 101,Léon: The Professional,64,Gary Oldman
@@ -19,11 +19,6 @@ movie_id,title,actor_id,actor_name
 564,The Mummy,10727,John Hannah
 564,The Mummy,16743,Arnold Vosloo
 564,The Mummy,18920,Patricia Velásquez
-280,Terminator 2: Judgment Day,1100,Arnold Schwarzenegger
-280,Terminator 2: Judgment Day,2713,Linda Hamilton
-280,Terminator 2: Judgment Day,820,Edward Furlong
-280,Terminator 2: Judgment Day,418,Robert Patrick
-280,Terminator 2: Judgment Day,2716,Earl Boen
 949,Heat,1158,Al Pacino
 949,Heat,380,Robert De Niro
 949,Heat,5576,Val Kilmer
@@ -34,61 +29,91 @@ movie_id,title,actor_id,actor_name
 18,The Fifth Element,64,Gary Oldman
 18,The Fifth Element,65,Ian Holm
 18,The Fifth Element,66,Chris Tucker
-11198,City Hunter,18897,Jackie Chan
-11198,City Hunter,68557,Joey Wong
-11198,City Hunter,68558,Kumiko Goto
-11198,City Hunter,67222,Chingmy Yau Suk-Ching
-11198,City Hunter,66055,Richard Norton
+607,Men in Black,2176,Tommy Lee Jones
+607,Men in Black,2888,Will Smith
+607,Men in Black,9625,Linda Fiorentino
+607,Men in Black,7132,Vincent D'Onofrio
+607,Men in Black,9626,Rip Torn
 2109,Rush Hour,18897,Jackie Chan
 2109,Rush Hour,66,Chris Tucker
 2109,Rush Hour,207,Tom Wilkinson
 2109,Rush Hour,4492,Philip Baker Hall
 2109,Rush Hour,7430,Elizabeth Peña
+9737,Bad Boys,2888,Will Smith
+9737,Bad Boys,78029,Martin Lawrence
+9737,Bad Boys,4939,Téa Leoni
+9737,Bad Boys,10698,Tchéky Karyo
+9737,Bad Boys,532,Joe Pantoliano
+9323,Ghost in the Shell,34923,Atsuko Tanaka
+9323,Ghost in the Shell,40451,Akio Otsuka
+9323,Ghost in the Shell,625,Iemasa Kayumi
+9323,Ghost in the Shell,20664,Koichi Yamadera
+9323,Ghost in the Shell,83933,Yutaka Nakano
+1893,Star Wars: Episode I - The Phantom Menace,3896,Liam Neeson
+1893,Star Wars: Episode I - The Phantom Menace,3061,Ewan McGregor
+1893,Star Wars: Episode I - The Phantom Menace,524,Natalie Portman
+1893,Star Wars: Episode I - The Phantom Menace,33196,Jake Lloyd
+1893,Star Wars: Episode I - The Phantom Menace,27762,Ian McDiarmid
 197,Braveheart,2461,Mel Gibson
 197,Braveheart,2462,Catherine McCormack
 197,Braveheart,1957,Sophie Marceau
 197,Braveheart,2463,Patrick McGoohan
 197,Braveheart,2464,Angus Macfadyen
+37135,Tarzan,3417,Tony Goldwyn
+37135,Tarzan,6613,Minnie Driver
+37135,Tarzan,515,Glenn Close
+37135,Tarzan,15789,Alex D. Linz
+37135,Tarzan,12929,Rosie O'Donnell
+954,Mission: Impossible,500,Tom Cruise
+954,Mission: Impossible,10127,Jon Voight
+954,Mission: Impossible,4885,Emmanuelle Béart
+954,Mission: Impossible,15319,Henry Czerny
+954,Mission: Impossible,1003,Jean Reno
+754,Face/Off,8891,John Travolta
+754,Face/Off,2963,Nicolas Cage
+754,Face/Off,11148,Joan Allen
+754,Face/Off,4941,Alessandro Nivola
+754,Face/Off,11150,Gina Gershon
+861,Total Recall,1100,Arnold Schwarzenegger
+861,Total Recall,10768,Rachel Ticotin
+861,Total Recall,4430,Sharon Stone
+861,Total Recall,780,Ronny Cox
+861,Total Recall,11086,Michael Ironside
+66245,Arunachalam,91555,Rajinikanth
+66245,Arunachalam,237709,Rambha
+66245,Arunachalam,288587,Soundarya
+66245,Arunachalam,584255,Jaishankar
+66245,Arunachalam,584132,Ravichandran
+602,Independence Day,2888,Will Smith
+602,Independence Day,8984,Bill Pullman
+602,Independence Day,4785,Jeff Goldblum
+602,Independence Day,1581,Mary McDonnell
+602,Independence Day,6167,Judd Hirsch
+36647,Blade,10814,Wesley Snipes
+36647,Blade,10822,Stephen Dorff
+36647,Blade,10823,Kris Kristofferson
+36647,Blade,10824,N'Bushe Wright
+36647,Blade,10825,Donal Logue
+2061,Pusher,3398,Kim Bodnia
+2061,Pusher,1019,Mads Mikkelsen
+2061,Pusher,21192,Laura Drasbæk
+2061,Pusher,31960,Zlatko Burić
+2061,Pusher,3411,Slavko Labović
 278,The Shawshank Redemption,504,Tim Robbins
 278,The Shawshank Redemption,192,Morgan Freeman
 278,The Shawshank Redemption,4029,Bob Gunton
 278,The Shawshank Redemption,6573,William Sadler
 278,The Shawshank Redemption,6574,Clancy Brown
-36568,Paulie,4800,Gena Rowlands
-36568,Paulie,4252,Tony Shalhoub
-36568,Paulie,11159,Cheech Marin
-36568,Paulie,52374,Bruce Davison
-36568,Paulie,17187,Trini Alvarado
 597,Titanic,6193,Leonardo DiCaprio
 597,Titanic,204,Kate Winslet
 597,Titanic,1954,Billy Zane
 597,Titanic,8534,Kathy Bates
 597,Titanic,3713,Frances Fisher
-428390,Stereotype,1716387,Robert Pešut - Magnifico
-428390,Stereotype,1584196,Tina Gorenjak
-428390,Stereotype,1716388,Alenka Tetičkovič
-428390,Stereotype,1716389,Boris Mihalj
-428390,Stereotype,584918,Peter Musevski
-1813,The Devil's Advocate,6384,Keanu Reeves
-1813,The Devil's Advocate,1158,Al Pacino
-1813,The Devil's Advocate,6885,Charlize Theron
-1813,The Devil's Advocate,4004,Jeffrey Jones
-1813,The Devil's Advocate,19239,Judith Ivey
-424,Schindler's List,3896,Liam Neeson
-424,Schindler's List,2282,Ben Kingsley
-424,Schindler's List,5469,Ralph Fiennes
-424,Schindler's List,6692,Caroline Goodall
-424,Schindler's List,6693,Jonathan Sagall
 497,The Green Mile,31,Tom Hanks
 497,The Green Mile,52,David Morse
 497,The Green Mile,5149,Bonnie Hunt
 497,The Green Mile,61981,Michael Clarke Duncan
 497,The Green Mile,2505,James Cromwell
-13,Forrest Gump,31,Tom Hanks
-13,Forrest Gump,32,Robin Wright
-13,Forrest Gump,33,Gary Sinise
-13,Forrest Gump,35,Sally Field
-13,Forrest Gump,34,Mykelti Williamson
 769,GoodFellas,380,Robert De Niro
 769,GoodFellas,11477,Ray Liotta
 769,GoodFellas,4517,Joe Pesci
@@ -99,31 +124,88 @@ movie_id,title,actor_id,actor_name
 550,Fight Club,1283,Helena Bonham Carter
 550,Fight Club,7470,Meat Loaf
 550,Fight Club,7499,Jared Leto
+424,Schindler's List,3896,Liam Neeson
+424,Schindler's List,2282,Ben Kingsley
+424,Schindler's List,5469,Ralph Fiennes
+424,Schindler's List,6692,Caroline Goodall
+424,Schindler's List,6693,Jonathan Sagall
+13,Forrest Gump,31,Tom Hanks
+13,Forrest Gump,32,Robin Wright
+13,Forrest Gump,33,Gary Sinise
+13,Forrest Gump,35,Sally Field
+13,Forrest Gump,34,Mykelti Williamson
+8587,The Lion King,4756,Matthew Broderick
+8587,The Lion King,20005,Moira Kelly
+8587,The Lion King,78729,Nathan Lane
+8587,The Lion King,69415,Ernie Sabella
+8587,The Lion King,15152,James Earl Jones
+82545,Texasville,1229,Jeff Bridges
+82545,Texasville,1036,Cybill Shepherd
+82545,Texasville,8873,Annie Potts
+82545,Texasville,1811,Randy Quaid
+82545,Texasville,9599,Cloris Leachman
+9769,Lolita,16940,Jeremy Irons
+9769,Lolita,11149,Dominique Swain
+9769,Lolita,29369,Melanie Griffith
+9769,Lolita,8924,Frank Langella
+9769,Lolita,11484,Suzanne Shepherd
+717586,The Alchemy of Ecstasy,588143,Tom Poon
+717586,The Alchemy of Ecstasy,556938,James Ha Chim-Si
+717586,The Alchemy of Ecstasy,1195450,Bobby Yip Kin-Sang
+717586,The Alchemy of Ecstasy,3067385,Cuicui Li
+717586,The Alchemy of Ecstasy,1261743,Onitsuka Ng Kin-Chung
+79871,Crazy Love,1135177,Loletta Lee Lai-Chun
+79871,Crazy Love,588143,Tom Poon
+79871,Crazy Love,1135394,Tommy Wong
+79871,Crazy Love,1414279,Poon An-Ying
+79871,Crazy Love,119447,Shing Fui-On
+489,Good Will Hunting,1892,Matt Damon
+489,Good Will Hunting,2157,Robin Williams
+489,Good Will Hunting,880,Ben Affleck
+489,Good Will Hunting,1640,Stellan Skarsgård
+489,Good Will Hunting,6613,Minnie Driver
+105825,Erotic Ghost Story III,1134734,Pauline Chan Bo-Lin
+105825,Erotic Ghost Story III,119447,Shing Fui-On
+105825,Erotic Ghost Story III,70108,Kenny Wong Tak-Ban
+105825,Erotic Ghost Story III,544465,Chik King-Man
+105825,Erotic Ghost Story III,5893581,张京花
+244748,Swan Song,11857,John Gielgud
+244748,Swan Song,29859,Richard Briers
+857,Saving Private Ryan,31,Tom Hanks
+857,Saving Private Ryan,3197,Tom Sizemore
+857,Saving Private Ryan,12833,Edward Burns
+857,Saving Private Ryan,12834,Barry Pepper
+857,Saving Private Ryan,6163,Adam Goldberg
+60898,Erotic Ghost Story,231909,Amy Yip Chi-Mei
+60898,Erotic Ghost Story,2417373,Man Siu
+60898,Erotic Ghost Story,231912,Hitomi Kudô
+60898,Erotic Ghost Story,142644,Pal Sinn Lap-Man
+60898,Erotic Ghost Story,26781,Susan Ha Chi-Chun
+4951,10 Things I Hate About You,1810,Heath Ledger
+4951,10 Things I Hate About You,12041,Julia Stiles
+4951,10 Things I Hate About You,24045,Joseph Gordon-Levitt
+4951,10 Things I Hate About You,40978,Larisa Oleynik
+4951,10 Things I Hate About You,38582,David Krumholtz
+37165,The Truman Show,206,Jim Carrey
+37165,The Truman Show,350,Laura Linney
+37165,The Truman Show,11315,Noah Emmerich
+37165,The Truman Show,11317,Natascha McElhone
+37165,The Truman Show,11318,Holland Taylor
+637,Life Is Beautiful,4818,Roberto Benigni
+637,Life Is Beautiful,9235,Nicoletta Braschi
+637,Life Is Beautiful,9236,Giorgio Cantarini
+637,Life Is Beautiful,9237,Giustino Durano
+637,Life Is Beautiful,9239,Sergio Bini Bustric
 680,Pulp Fiction,8891,John Travolta
 680,Pulp Fiction,2231,Samuel L. Jackson
 680,Pulp Fiction,139,Uma Thurman
 680,Pulp Fiction,62,Bruce Willis
 680,Pulp Fiction,10182,Ving Rhames
-10154,Mickey Blue Eyes,3291,Hugh Grant
-10154,Mickey Blue Eyes,3085,James Caan
-10154,Mickey Blue Eyes,10478,Jeanne Tripplehorn
-10154,Mickey Blue Eyes,4521,Burt Young
-10154,Mickey Blue Eyes,1292,James Fox
 862,Toy Story,31,Tom Hanks
 862,Toy Story,12898,Tim Allen
 862,Toy Story,7167,Don Rickles
 862,Toy Story,12899,Jim Varney
 862,Toy Story,12900,Wallace Shawn
-1624,Liar Liar,206,Jim Carrey
-1624,Liar Liar,16307,Maura Tierney
-1624,Liar Liar,18190,Justin Cooper
-1624,Liar Liar,2130,Cary Elwes
-1624,Liar Liar,11718,Anne Haney
-1283,Torrente: The Dumb Arm of the Law,10847,Santiago Segura
-1283,Torrente: The Dumb Arm of the Law,1610,Javier Cámara
-1283,Torrente: The Dumb Arm of the Law,72998,Neus Asensi
-1283,Torrente: The Dumb Arm of the Law,3482,Chus Lampreave
-1283,Torrente: The Dumb Arm of the Law,12089,Tony Leblanc
 863,Toy Story 2,31,Tom Hanks
 863,Toy Story 2,12898,Tim Allen
 863,Toy Story 2,3234,Joan Cusack
@@ -134,164 +216,382 @@ movie_id,title,actor_id,actor_name
 854,The Mask,11803,Peter Greene
 854,The Mask,1219,Amy Yasbeck
 854,The Mask,53402,Richard Jeni
-37165,The Truman Show,206,Jim Carrey
-37165,The Truman Show,350,Laura Linney
-37165,The Truman Show,11315,Noah Emmerich
-37165,The Truman Show,11317,Natascha McElhone
-37165,The Truman Show,11318,Holland Taylor
+249371,Spider and Rose,221730,Ruth Cracknell
+249371,Spider and Rose,133686,Simon Bossell
+249371,Spider and Rose,38665,Max Cullen
+249371,Spider and Rose,28099,Lewis Fitz-Gerald
+249371,Spider and Rose,941594,Jennifer Cluff
+11970,Hercules,15455,Tate Donovan
+11970,Hercules,20903,Josh Keaton
+11970,Hercules,45566,Roger Bart
+11970,Hercules,518,Danny DeVito
+11970,Hercules,4512,James Woods
+19404,Dilwale Dulhania Le Jayenge,55061,Kajol
+19404,Dilwale Dulhania Le Jayenge,35742,Shah Rukh Khan
+19404,Dilwale Dulhania Le Jayenge,691,Amrish Puri
+19404,Dilwale Dulhania Le Jayenge,146971,Farida Jalal
+19404,Dilwale Dulhania Le Jayenge,6217,Anupam Kher
 2105,American Pie,21593,Jason Biggs
 2105,American Pie,21594,Chris Klein
 2105,American Pie,21403,Thomas Ian Nicholas
 2105,American Pie,21595,Alyson Hannigan
 2105,American Pie,21596,Shannon Elizabeth
-637,Life Is Beautiful,4818,Roberto Benigni
-637,Life Is Beautiful,9235,Nicoletta Braschi
-637,Life Is Beautiful,9236,Giorgio Cantarini
-637,Life Is Beautiful,9237,Giustino Durano
-637,Life Is Beautiful,9239,Sergio Bini Bustric
+772,Home Alone 2: Lost in New York,11510,Macaulay Culkin
+772,Home Alone 2: Lost in New York,4517,Joe Pesci
+772,Home Alone 2: Lost in New York,11511,Daniel Stern
+772,Home Alone 2: Lost in New York,11514,Catherine O'Hara
+772,Home Alone 2: Lost in New York,11512,John Heard
+8467,Dumb and Dumber,206,Jim Carrey
+8467,Dumb and Dumber,8447,Jeff Daniels
+8467,Dumb and Dumber,34485,Lauren Holly
+8467,Dumb and Dumber,8437,Teri Garr
+8467,Dumb and Dumber,7867,Charles Rocket
+9820,The Parent Trap,49265,Lindsay Lohan
+9820,The Parent Trap,6065,Dennis Quaid
+9820,The Parent Trap,20162,Natasha Richardson
+9820,The Parent Trap,55422,Elaine Hendrix
+9820,The Parent Trap,4494,Lisa Ann Walter
+10830,Matilda,11717,Mara Wilson
+10830,Matilda,518,Danny DeVito
+10830,Matilda,24203,Rhea Perlman
+10830,Matilda,6368,Embeth Davidtz
+10830,Matilda,11213,Pam Ferris
+115,The Big Lebowski,1229,Jeff Bridges
+115,The Big Lebowski,1230,John Goodman
+115,The Big Lebowski,1231,Julianne Moore
+115,The Big Lebowski,884,Steve Buscemi
+115,The Big Lebowski,1232,David Huddleston
+788,Mrs. Doubtfire,2157,Robin Williams
+788,Mrs. Doubtfire,35,Sally Field
+788,Mrs. Doubtfire,8987,Lisa Jakub
+788,Mrs. Doubtfire,11716,Matthew Lawrence
+788,Mrs. Doubtfire,11717,Mara Wilson
+137,Groundhog Day,1532,Bill Murray
+137,Groundhog Day,1533,Andie MacDowell
+137,Groundhog Day,1534,Chris Elliott
+137,Groundhog Day,537,Stephen Tobolowsky
+137,Groundhog Day,1535,Brian Doyle-Murray
+10897,The Little Rascals,69395,Bug Hall
+10897,The Little Rascals,148996,Brittany Ashton Holmes
+10897,The Little Rascals,67378,Travis Tedford
+10897,The Little Rascals,67379,Kevin Jamal Woods
+10897,The Little Rascals,67380,Jordan Warkol
+879,Hook,4483,Dustin Hoffman
+879,Hook,2157,Robin Williams
+879,Hook,1204,Julia Roberts
+879,Hook,382,Bob Hoskins
+879,Hook,10978,Maggie Smith
+9487,A Bug's Life,21290,Dave Foley
+9487,A Bug's Life,1979,Kevin Spacey
+9487,A Bug's Life,15886,Julia Louis-Dreyfus
+9487,A Bug's Life,17265,Hayden Panettiere
+9487,A Bug's Life,89784,Phyllis Diller
+10607,Don't Be a Menace to South Central While Drinking Your Juice in the Hood,35690,Shawn Wayans
+10607,Don't Be a Menace to South Central While Drinking Your Juice in the Hood,9562,Marlon Wayans
+10607,Don't Be a Menace to South Central While Drinking Your Juice in the Hood,66131,Tracey Cherelle Jones
+10607,Don't Be a Menace to South Central While Drinking Your Juice in the Hood,27590,Chris Spencer
+10607,Don't Be a Menace to South Central While Drinking Your Juice in the Hood,2535,Vivica A. Fox
+11104,Chungking Express,56830,Brigitte Lin
+11104,Chungking Express,43661,Takeshi Kaneshiro
+11104,Chungking Express,1337,Tony Leung Chiu-wai
+11104,Chungking Express,12671,Faye Wong
+11104,Chungking Express,119875,Valerie Chow
+646315,The Legendary Lighter,2452602,Kim Hae-joon
+646315,The Legendary Lighter,2452603,Park Sharon
+646315,The Legendary Lighter,2452605,Lee Dong-ju
+646315,The Legendary Lighter,2452606,Hong Dal-pyo
 24428,The Avengers,3223,Robert Downey Jr.
 24428,The Avengers,16828,Chris Evans
 24428,The Avengers,103,Mark Ruffalo
 24428,The Avengers,74568,Chris Hemsworth
 24428,The Avengers,1245,Scarlett Johansson
-337170,American Made,500,Tom Cruise
-337170,American Made,93210,Domhnall Gleeson
-337170,American Made,131723,Sarah Wright
-337170,American Made,88124,Jesse Plemons
-337170,American Made,572541,Caleb Landry Jones
 299536,Avengers: Infinity War,3223,Robert Downey Jr.
 299536,Avengers: Infinity War,16828,Chris Evans
 299536,Avengers: Infinity War,74568,Chris Hemsworth
 299536,Avengers: Infinity War,16851,Josh Brolin
 299536,Avengers: Infinity War,103,Mark Ruffalo
-461955,Rakka,10205,Sigourney Weaver
-461955,Rakka,1198931,Eugene Khumbanyiwa
-461955,Rakka,82190,Robert Hobbs
-461955,Rakka,43903,Carly Pope
-461955,Rakka,1029029,Brandon Auret
-315635,Spider-Man: Homecoming,1136406,Tom Holland
-315635,Spider-Man: Homecoming,2232,Michael Keaton
-315635,Spider-Man: Homecoming,3223,Robert Downey Jr.
-315635,Spider-Man: Homecoming,3141,Marisa Tomei
-315635,Spider-Man: Homecoming,15277,Jon Favreau
 181808,Star Wars: The Last Jedi,2,Mark Hamill
 181808,Star Wars: The Last Jedi,4,Carrie Fisher
 181808,Star Wars: The Last Jedi,1023139,Adam Driver
 181808,Star Wars: The Last Jedi,1315036,Daisy Ridley
 181808,Star Wars: The Last Jedi,236695,John Boyega
+374720,Dunkirk,1687041,Fionn Whitehead
+374720,Dunkirk,2524,Tom Hardy
+374720,Dunkirk,40900,Mark Rylance
+374720,Dunkirk,11181,Kenneth Branagh
+374720,Dunkirk,2037,Cillian Murphy
+315635,Spider-Man: Homecoming,1136406,Tom Holland
+315635,Spider-Man: Homecoming,2232,Michael Keaton
+315635,Spider-Man: Homecoming,3223,Robert Downey Jr.
+315635,Spider-Man: Homecoming,3141,Marisa Tomei
+315635,Spider-Man: Homecoming,15277,Jon Favreau
 27205,Inception,6193,Leonardo DiCaprio
 27205,Inception,24045,Joseph Gordon-Levitt
 27205,Inception,3899,Ken Watanabe
 27205,Inception,2524,Tom Hardy
 27205,Inception,27578,Elliot Page
-429617,Spider-Man: Far From Home,1136406,Tom Holland
-429617,Spider-Man: Far From Home,131,Jake Gyllenhaal
-429617,Spider-Man: Far From Home,2231,Samuel L. Jackson
-429617,Spider-Man: Far From Home,3141,Marisa Tomei
-429617,Spider-Man: Far From Home,15277,Jon Favreau
-324857,Spider-Man: Into the Spider-Verse,587506,Shameik Moore
-324857,Spider-Man: Into the Spider-Verse,543505,Jake Johnson
-324857,Spider-Man: Into the Spider-Verse,130640,Hailee Steinfeld
-324857,Spider-Man: Into the Spider-Verse,932967,Mahershala Ali
-324857,Spider-Man: Into the Spider-Verse,226366,Brian Tyree Henry
 299534,Avengers: Endgame,3223,Robert Downey Jr.
 299534,Avengers: Endgame,16828,Chris Evans
 299534,Avengers: Endgame,103,Mark Ruffalo
 299534,Avengers: Endgame,74568,Chris Hemsworth
 299534,Avengers: Endgame,1245,Scarlett Johansson
-227156,The Giver,1229,Jeff Bridges
-227156,The Giver,5064,Meryl Streep
-227156,The Giver,1017347,Brenton Thwaites
-227156,The Giver,28846,Alexander Skarsgård
-227156,The Giver,3897,Katie Holmes
-397805,Brothers,1636241,Ethan Sailor
-397805,Brothers,1636242,Griffin Fox Smith
-397805,Brothers,2798548,Beth Brown
+171776,Sparks,576222,Chase Williamson
+171776,Sparks,120248,Ashley Bell
+171776,Sparks,6574,Clancy Brown
+171776,Sparks,28410,Jake Busey
+171776,Sparks,45415,William Katt
+324857,Spider-Man: Into the Spider-Verse,587506,Shameik Moore
+324857,Spider-Man: Into the Spider-Verse,543505,Jake Johnson
+324857,Spider-Man: Into the Spider-Verse,130640,Hailee Steinfeld
+324857,Spider-Man: Into the Spider-Verse,932967,Mahershala Ali
+324857,Spider-Man: Into the Spider-Verse,226366,Brian Tyree Henry
+102382,The Amazing Spider-Man 2,37625,Andrew Garfield
+102382,The Amazing Spider-Man 2,54693,Emma Stone
+102382,The Amazing Spider-Man 2,134,Jamie Foxx
+102382,The Amazing Spider-Man 2,122889,Dane DeHaan
+102382,The Amazing Spider-Man 2,10132,Colm Feore
+76341,Mad Max: Fury Road,2524,Tom Hardy
+76341,Mad Max: Fury Road,6885,Charlize Theron
+76341,Mad Max: Fury Road,3292,Nicholas Hoult
+76341,Mad Max: Fury Road,26060,Hugh Keays-Byrne
+76341,Mad Max: Fury Road,1056053,Josh Helman
+49026,The Dark Knight Rises,3894,Christian Bale
+49026,The Dark Knight Rises,64,Gary Oldman
+49026,The Dark Knight Rises,2524,Tom Hardy
+49026,The Dark Knight Rises,24045,Joseph Gordon-Levitt
+49026,The Dark Knight Rises,1813,Anne Hathaway
+429617,Spider-Man: Far From Home,1136406,Tom Holland
+429617,Spider-Man: Far From Home,131,Jake Gyllenhaal
+429617,Spider-Man: Far From Home,2231,Samuel L. Jackson
+429617,Spider-Man: Far From Home,3141,Marisa Tomei
+429617,Spider-Man: Far From Home,15277,Jon Favreau
+1930,The Amazing Spider-Man,37625,Andrew Garfield
+1930,The Amazing Spider-Man,54693,Emma Stone
+1930,The Amazing Spider-Man,7026,Rhys Ifans
+1930,The Amazing Spider-Man,5724,Denis Leary
+1930,The Amazing Spider-Man,8349,Martin Sheen
+122917,The Hobbit: The Battle of the Five Armies,1327,Ian McKellen
+122917,The Hobbit: The Battle of the Five Armies,7060,Martin Freeman
+122917,The Hobbit: The Battle of the Five Armies,30315,Richard Armitage
+122917,The Hobbit: The Battle of the Five Armies,114,Orlando Bloom
+122917,The Hobbit: The Battle of the Five Armies,19034,Evangeline Lilly
+10138,Iron Man 2,3223,Robert Downey Jr.
+10138,Iron Man 2,12052,Gwyneth Paltrow
+10138,Iron Man 2,1896,Don Cheadle
+10138,Iron Man 2,1245,Scarlett Johansson
+10138,Iron Man 2,6807,Sam Rockwell
+351286,Jurassic World: Fallen Kingdom,73457,Chris Pratt
+351286,Jurassic World: Fallen Kingdom,18997,Bryce Dallas Howard
+351286,Jurassic World: Fallen Kingdom,28847,Rafe Spall
+351286,Jurassic World: Fallen Kingdom,1029934,Justice Smith
+351286,Jurassic World: Fallen Kingdom,1257819,Daniella Pineda
+177572,Big Hero 6,66580,Scott Adsit
+177572,Big Hero 6,515510,Ryan Potter
+177572,Big Hero 6,82093,Daniel Henney
+177572,Big Hero 6,51990,T.J. Miller
+177572,Big Hero 6,78324,Jamie Chung
+271110,Captain America: Civil War,16828,Chris Evans
+271110,Captain America: Civil War,3223,Robert Downey Jr.
+271110,Captain America: Civil War,1245,Scarlett Johansson
+271110,Captain America: Civil War,60898,Sebastian Stan
+271110,Captain America: Civil War,53650,Anthony Mackie
 157336,Interstellar,10297,Matthew McConaughey
 157336,Interstellar,1813,Anne Hathaway
 157336,Interstellar,3895,Michael Caine
 157336,Interstellar,83002,Jessica Chastain
 157336,Interstellar,1893,Casey Affleck
-225278,Run,1210765,Joseph Stacey
-225278,Run,1210767,Gabi Herrett
-225278,Run,1210769,John Grey
-507787,Murdered at 17,51751,Susan Walters
-507787,Murdered at 17,1228378,Cristine Prosperi
-507787,Murdered at 17,1438287,Blake Burt
-507787,Murdered at 17,1542597,Emily Galley
-507787,Murdered at 17,1986132,Blake Canning
-585261,Virus,997494,Kunchacko Boban
-585261,Virus,1053894,Parvathy Thiruvothu
-585261,Virus,1263974,Tovino Thomas
-585261,Virus,1135717,Sreenath Bhasi
-585261,Virus,584324,Revathi
+475557,Joker,73421,Joaquin Phoenix
+475557,Joker,380,Robert De Niro
+475557,Joker,1545693,Zazie Beetz
+475557,Joker,4432,Frances Conroy
+475557,Joker,16841,Brett Cullen
 496243,Parasite,20738,Song Kang-ho
 496243,Parasite,115290,Lee Sun-kyun
 496243,Parasite,556435,Cho Yeo-jeong
 496243,Parasite,1255881,Choi Woo-shik
 496243,Parasite,1442583,Park So-dam
-588787,Ordinary Love,3896,Liam Neeson
-588787,Ordinary Love,72305,Lesley Manville
-588787,Ordinary Love,73287,David Wilmot
-588787,Ordinary Love,150072,Amit Shah
-588787,Ordinary Love,182043,Lalor Roddy
-542559,Last Summer,2107931,Noa Thomas
-542559,Last Summer,2107933,Gruffydd Weston
-542559,Last Summer,2107936,Rowan Jones
-542559,Last Summer,2107939,Christopher Benning
-542559,Last Summer,1231651,Richard Harrington
-434714,My Days of Mercy,27578,Elliot Page
-434714,My Days of Mercy,51072,Kate Mara
-434714,My Days of Mercy,139150,Amy Seimetz
-434714,My Days of Mercy,1637129,Charlie Shotwell
-434714,My Days of Mercy,13550,Elias Koteas
-244458,The Voices,10859,Ryan Reynolds
-244458,The Voices,59620,Gemma Arterton
-244458,The Voices,84223,Anna Kendrick
-244458,The Voices,67837,Jacki Weaver
-244458,The Voices,118036,Ella Smith
-269149,Zootopia,417,Ginnifer Goodwin
-269149,Zootopia,23532,Jason Bateman
-269149,Zootopia,17605,Idris Elba
-269149,Zootopia,213001,Jenny Slate
-269149,Zootopia,41565,Nate Torrence
-101519,A Fantastic Fear of Everything,11108,Simon Pegg
-101519,A Fantastic Fear of Everything,652,Paul Freeman
-101519,A Fantastic Fear of Everything,45588,Clare Higgins
-101519,A Fantastic Fear of Everything,66443,Amara Karan
-101519,A Fantastic Fear of Everything,1277052,Alan Drake
-286687,Love Lesson,5235257,Kim Sun-young
-286687,Love Lesson,1352931,Byun Jun-suk
-286687,Love Lesson,1352932,Oh Cho-hee
-286687,Love Lesson,1630811,Kim Ji-hoon
-286687,Love Lesson,1632773,Heo Jung-min
-424619,The Magic Tuche,16922,Jean-Paul Rouve
-424619,The Magic Tuche,2412,Isabelle Nanty
-424619,The Magic Tuche,73264,Claire Nadeau
-424619,The Magic Tuche,544684,Sarah Stern
-424619,The Magic Tuche,544685,Pierre Lottin
-254023,The Humbling,1158,Al Pacino
-254023,The Humbling,45400,Greta Gerwig
-254023,The Humbling,19152,Dylan Baker
-254023,The Humbling,28164,Charles Grodin
-254023,The Humbling,971329,Nina Arianda
-254472,Stung,71467,Matt O'Leary
-254472,Stung,1382112,Jessica Cook
-254472,Stung,2714,Lance Henriksen
-254472,Stung,5365,Clifton Collins Jr.
-254472,Stung,116312,David Masterson
-567609,Ready or Not,1372369,Samara Weaving
-567609,Ready or Not,225411,Mark O'Brien
-567609,Ready or Not,11702,Adam Brody
-567609,Ready or Not,15319,Henry Czerny
-567609,Ready or Not,1533,Andie MacDowell
-150540,Inside Out,56322,Amy Poehler
-150540,Inside Out,169200,Phyllis Smith
-150540,Inside Out,21125,Richard Kind
-150540,Inside Out,19278,Bill Hader
-150540,Inside Out,59258,Lewis Black
+372058,Your Name.,225730,Ryunosuke Kamiki
+372058,Your Name.,1369100,Mone Kamishiraishi
+372058,Your Name.,1668610,Ryo Narita
+372058,Your Name.,936275,Aoi Yuuki
+372058,Your Name.,1210634,Nobunaga Shimazaki
+335984,Blade Runner 2049,30614,Ryan Gosling
+335984,Blade Runner 2049,3,Harrison Ford
+335984,Blade Runner 2049,224513,Ana de Armas
+335984,Blade Runner 2049,543530,Dave Bautista
+335984,Blade Runner 2049,32,Robin Wright
+245700,Mr. Turner,9191,Timothy Spall
+245700,Mr. Turner,1221056,Dorothy Atkinson
+245700,Mr. Turner,72307,Marion Bailey
+245700,Mr. Turner,72308,Paul Jesson
+245700,Mr. Turner,72305,Lesley Manville
+324786,Hacksaw Ridge,37625,Andrew Garfield
+324786,Hacksaw Ridge,65731,Sam Worthington
+324786,Hacksaw Ridge,4937,Vince Vaughn
+324786,Hacksaw Ridge,20374,Teresa Palmer
+324786,Hacksaw Ridge,972356,Luke Bracey
 106646,The Wolf of Wall Street,6193,Leonardo DiCaprio
 106646,The Wolf of Wall Street,21007,Jonah Hill
 106646,The Wolf of Wall Street,234352,Margot Robbie
 106646,The Wolf of Wall Street,10297,Matthew McConaughey
 106646,The Wolf of Wall Street,3497,Kyle Chandler
+244786,Whiplash,996701,Miles Teller
+244786,Whiplash,18999,J.K. Simmons
+244786,Whiplash,781,Paul Reiser
+244786,Whiplash,129104,Melissa Benoist
+244786,Whiplash,970216,Austin Stowell
+286687,Love Lesson,5235257,Kim Sun-young
+286687,Love Lesson,1352931,Byun Jun-suk
+286687,Love Lesson,1352932,Oh Cho-hee
+286687,Love Lesson,1630811,Kim Ji-hoon
+286687,Love Lesson,1632773,Heo Jung-min
+216015,Fifty Shades of Grey,118545,Dakota Johnson
+216015,Fifty Shades of Grey,1254583,Jamie Dornan
+216015,Fifty Shades of Grey,49971,Jennifer Ehle
+216015,Fifty Shades of Grey,222130,Eloise Mumford
+216015,Fifty Shades of Grey,59251,Victor Rasuk
+150540,Inside Out,56322,Amy Poehler
+150540,Inside Out,169200,Phyllis Smith
+150540,Inside Out,21125,Richard Kind
+150540,Inside Out,19278,Bill Hader
+150540,Inside Out,59258,Lewis Black
+273248,The Hateful Eight,2231,Samuel L. Jackson
+273248,The Hateful Eight,6856,Kurt Russell
+273248,The Hateful Eight,10431,Jennifer Jason Leigh
+273248,The Hateful Eight,27740,Walton Goggins
+273248,The Hateful Eight,76961,Demián Bichir
+331482,Little Women,36592,Saoirse Ronan
+331482,Little Women,10990,Emma Watson
+331482,Little Women,1373737,Florence Pugh
+331482,Little Women,1669125,Eliza Scanlen
+331482,Little Women,4784,Laura Dern
+329865,Arrival,9273,Amy Adams
+329865,Arrival,17604,Jeremy Renner
+329865,Arrival,2178,Forest Whitaker
+329865,Arrival,72873,Michael Stuhlbarg
+329865,Arrival,225411,Mark O'Brien
+228150,Fury,287,Brad Pitt
+228150,Fury,10959,Shia LaBeouf
+228150,Fury,33235,Logan Lerman
+228150,Fury,454,Michael Peña
+228150,Fury,19498,Jon Bernthal
+269955,Obsessed,83020,Song Seung-heon
+269955,Obsessed,1329984,Lim Ji-yeon
+269955,Obsessed,556435,Cho Yeo-jeong
+269955,Obsessed,84980,On Ju-wan
+269955,Obsessed,84996,Yoo Hai-jin
+286217,The Martian,1892,Matt Damon
+286217,The Martian,83002,Jessica Chastain
+286217,The Martian,41091,Kristen Wiig
+286217,The Martian,8447,Jeff Daniels
+286217,The Martian,454,Michael Peña
+447332,A Quiet Place,5081,Emily Blunt
+447332,A Quiet Place,17697,John Krasinski
+447332,A Quiet Place,1815539,Millicent Simmonds
+447332,A Quiet Place,1590759,Noah Jupe
+447332,A Quiet Place,1924769,Cade Woodward
+205596,The Imitation Game,71580,Benedict Cumberbatch
+205596,The Imitation Game,116,Keira Knightley
+205596,The Imitation Game,1247,Matthew Goode
+205596,The Imitation Game,139549,Rory Kinnear
+205596,The Imitation Game,85718,Allen Leech
+269149,Zootopia,417,Ginnifer Goodwin
+269149,Zootopia,23532,Jason Bateman
+269149,Zootopia,17605,Idris Elba
+269149,Zootopia,213001,Jenny Slate
+269149,Zootopia,41565,Nate Torrence
+567609,Ready or Not,1372369,Samara Weaving
+567609,Ready or Not,225411,Mark O'Brien
+567609,Ready or Not,11702,Adam Brody
+567609,Ready or Not,15319,Henry Czerny
+567609,Ready or Not,1533,Andie MacDowell
+378236,The Emoji Movie,51990,T.J. Miller
+378236,The Emoji Movie,55466,James Corden
+378236,The Emoji Movie,1772,Anna Faris
+378236,The Emoji Movie,52792,Maya Rudolph
+378236,The Emoji Movie,3214,Steven Wright
+293660,Deadpool,10859,Ryan Reynolds
+293660,Deadpool,54882,Morena Baccarin
+293660,Deadpool,1047649,Ed Skrein
+293660,Deadpool,51990,T.J. Miller
+293660,Deadpool,78452,Gina Carano
+82690,Wreck-It Ralph,4764,John C. Reilly
+82690,Wreck-It Ralph,7404,Sarah Silverman
+82690,Wreck-It Ralph,58737,Jack McBrayer
+82690,Wreck-It Ralph,43775,Jane Lynch
+82690,Wreck-It Ralph,21088,Alan Tudyk
+284053,Thor: Ragnarok,74568,Chris Hemsworth
+284053,Thor: Ragnarok,103,Mark Ruffalo
+284053,Thor: Ragnarok,91606,Tom Hiddleston
+284053,Thor: Ragnarok,112,Cate Blanchett
+284053,Thor: Ragnarok,17605,Idris Elba
+214756,Ted 2,13240,Mark Wahlberg
+214756,Ted 2,52139,Seth MacFarlane
+214756,Ted 2,71070,Amanda Seyfried
+214756,Ted 2,207150,Jessica Barth
+214756,Ted 2,1771,Giovanni Ribisi
+297090,The Torture Club,553173,Noriko Kohara
+297090,The Torture Club,1373041,Haruna Yoshizumi
+297090,The Torture Club,1266271,Yuki Mamiya
+297090,The Torture Club,1453353,Mika Yano
+297090,The Torture Club,2041432,Nami Motoyama
+466272,Once Upon a Time... in Hollywood,6193,Leonardo DiCaprio
+466272,Once Upon a Time... in Hollywood,287,Brad Pitt
+466272,Once Upon a Time... in Hollywood,234352,Margot Robbie
+466272,Once Upon a Time... in Hollywood,46593,Emile Hirsch
+466272,Once Upon a Time... in Hollywood,1392137,Margaret Qualley
+313369,La La Land,30614,Ryan Gosling
+313369,La La Land,54693,Emma Stone
+313369,La La Land,113461,John Legend
+313369,La La Land,14892,Rosemarie DeWitt
+313369,La La Land,168877,Finn Wittrock
+383498,Deadpool 2,10859,Ryan Reynolds
+383498,Deadpool 2,16851,Josh Brolin
+383498,Deadpool 2,54882,Morena Baccarin
+383498,Deadpool 2,1139349,Julian Dennison
+383498,Deadpool 2,1545693,Zazie Beetz
+546554,Knives Out,8784,Daniel Craig
+546554,Knives Out,16828,Chris Evans
+546554,Knives Out,224513,Ana de Armas
+546554,Knives Out,8944,Jamie Lee Curtis
+546554,Knives Out,335,Michael Shannon
+10193,Toy Story 3,31,Tom Hanks
+10193,Toy Story 3,12898,Tim Allen
+10193,Toy Story 3,3234,Joan Cusack
+10193,Toy Story 3,7167,Don Rickles
+10193,Toy Story 3,12900,Wallace Shawn
+77338,The Intouchables,33161,François Cluzet
+77338,The Intouchables,78423,Omar Sy
+77338,The Intouchables,19370,Anne Le Ny
+77338,The Intouchables,219708,Audrey Fleurot
+77338,The Intouchables,84430,Joséphine de Meaux
+72105,Ted,13240,Mark Wahlberg
+72105,Ted,18973,Mila Kunis
+72105,Ted,52139,Seth MacFarlane
+72105,Ted,74949,Joel McHale
+72105,Ted,1771,Giovanni Ribisi
+384018,Fast & Furious Presents: Hobbs & Shaw,18918,Dwayne Johnson
+384018,Fast & Furious Presents: Hobbs & Shaw,976,Jason Statham
+384018,Fast & Furious Presents: Hobbs & Shaw,17605,Idris Elba
+384018,Fast & Furious Presents: Hobbs & Shaw,556356,Vanessa Kirby
+384018,Fast & Furious Presents: Hobbs & Shaw,15735,Helen Mirren
+301528,Toy Story 4,31,Tom Hanks
+301528,Toy Story 4,12898,Tim Allen
+301528,Toy Story 4,8873,Annie Potts
+301528,Toy Story 4,25147,Tony Hale
+301528,Toy Story 4,298410,Keegan-Michael Key
+120467,The Grand Budapest Hotel,5469,Ralph Fiennes
+120467,The Grand Budapest Hotel,1164,F. Murray Abraham
+120467,The Grand Budapest Hotel,8789,Mathieu Amalric
+120467,The Grand Budapest Hotel,3490,Adrien Brody
+120467,The Grand Budapest Hotel,5293,Willem Dafoe
+260514,Cars 3,887,Owen Wilson
+260514,Cars 3,1374727,Cristela Alonzo
+260514,Cars 3,2955,Chris Cooper
+260514,Cars 3,51797,Nathan Fillion
+260514,Cars 3,15897,Larry the Cable Guy
+49013,Cars 2,15897,Larry the Cable Guy
+49013,Cars 2,887,Owen Wilson
+49013,Cars 2,3895,Michael Caine
+49013,Cars 2,1246,Emily Mortimer
+49013,Cars 2,1926,Eddie Izzard

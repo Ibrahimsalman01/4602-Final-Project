@@ -57,10 +57,24 @@ for decade in sorted(merged_df["decade"].unique()):
             else:
                 G.add_edge(a, b, weight=1)
 
+    nx.set_node_attributes(G, actor_main_genre, "main_genre")
+
     print(f"\n=== {decade}s ===")
     print("Nodes:", G.number_of_nodes())
     print("Edges:", G.number_of_edges())
     print("Connected components:", nx.number_connected_components(G))
+
+
+    try:
+        # Attribute Assortativity
+        genre_assort = nx.attribute_assortativity_coefficient(G, "main_genre")
+        print(f"Genre Assortativity: {genre_assort:.4f}")
+        
+        # Degree Assortativity
+        degree_assort = nx.degree_assortativity_coefficient(G)
+        print(f"Degree Assortativity: {degree_assort:.4f}")
+    except Exception as e:
+        print(f"Assortativity calculation failed: {e}")
 
 
     # give node color by main genre
@@ -76,7 +90,7 @@ for decade in sorted(merged_df["decade"].unique()):
 
     # draw graph
     plt.figure(figsize=(12, 9))
-    pos = nx.spring_layout(G, seed=42, k=1.5)
+    pos = nx.spring_layout(G, seed=42, k=0.3)
 
     nx.draw_networkx_edges(
         G,
@@ -92,15 +106,15 @@ for decade in sorted(merged_df["decade"].unique()):
         node_size=500
     )
 
-    # label node with actors name
-    labels = {node: node for node in G.nodes()}
+    # # label node with actors name
+    # labels = {node: node for node in G.nodes()}
 
-    nx.draw_networkx_labels(
-        G,
-        pos,
-        labels=labels,
-        font_size=8
-    )
+    # nx.draw_networkx_labels(
+    #     G,
+    #     pos,
+    #     labels=labels,
+    #     font_size=8
+    # )
 
     # legend
     for genre, color in genre_colors.items():

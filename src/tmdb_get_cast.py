@@ -7,7 +7,7 @@ API_TOKEN = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJjYmQ1ZjIwYzk3MGIyYjkyZDg5NzYzMWM4YT
 DECADES = [1990, 2010]
 GENRES = ["Action", "Drama", "Comedy"]
 
-MOVIES_PER_GENRE = 10
+MOVIES_PER_GENRE = 20
 TOP_CAST = 5
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 OUTPUT_DIR = os.path.join(BASE_DIR, "data")
