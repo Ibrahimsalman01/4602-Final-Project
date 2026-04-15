@@ -6,7 +6,7 @@ import time
 
 API_TOKEN = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJjYmQ1ZjIwYzk3MGIyYjkyZDg5NzYzMWM4YTM2OGY3NCIsIm5iZiI6MTc3Mzc2OTI0MS4yNTMsInN1YiI6IjY5Yjk5MjE5MWU2ZmEzMDcyNDAyMGI1MyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.p8rv2Ugv-X1aHkzWcXaTChcSGXHZ4x5Rxs-sdNaoELo"
 
-TOP_CAST = 3
+TOP_CAST = 5
 
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 DATA_DIR = os.path.join(BASE_DIR, "data")
