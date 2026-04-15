@@ -74,14 +74,6 @@ for decade in sorted(merged_df["decade"].unique()):
         degree_assort = nx.degree_assortativity_coefficient(G)
         print(f"Degree Assortativity: {degree_assort:.4f}")
 
-        active_actors = [actor for actor in G.nodes() if len(actor_genre_counts[actor]) >= 2]
-        G_core = G.subgraph(active_actors)
-        if G_core.number_of_edges() > 0:
-            core_genre_assort = nx.attribute_assortativity_coefficient(G_core, "main_genre")
-            print(f"Genre Assortativity in the Core Network: {core_genre_assort:.4f} (Active Nodes: {G_core.number_of_nodes()})")
-        else:
-            print("Genre Assortativity in the Core Network: N/A (Not enough edges)")
-
     except Exception as e:
         print(f"Assortativity calculation failed: {e}")
 
