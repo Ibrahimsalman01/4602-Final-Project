@@ -1,121 +1,361 @@
 movie_id,title,release_date,decade,genre
 603,The Matrix,1999-03-31,1990,Action
-280,Terminator 2: Judgment Day,1991-07-03,1990,Action
-101,Léon: The Professional,1994-09-14,1990,Action
-564,The Mummy,1999-04-16,1990,Action
-949,Heat,1995-12-15,1990,Action
-18,The Fifth Element,1997-05-02,1990,Action
-607,Men in Black,1997-07-02,1990,Action
-2109,Rush Hour,1998-09-18,1990,Action
-9737,Bad Boys,1995-04-07,1990,Action
-9323,Ghost in the Shell,1995-11-18,1990,Action
 1893,Star Wars: Episode I - The Phantom Menace,1999-05-19,1990,Action
-197,Braveheart,1995-05-24,1990,Action
-37135,Tarzan,1999-06-17,1990,Action
+101,Léon: The Professional,1994-09-14,1990,Action
+949,Heat,1995-12-15,1990,Action
+11220,Fallen Angels,1995-09-06,1990,Action
+280,Terminator 2: Judgment Day,1991-07-03,1990,Action
+607,Men in Black,1997-07-02,1990,Action
 954,Mission: Impossible,1996-05-22,1990,Action
-754,Face/Off,1997-06-27,1990,Action
-861,Total Recall,1990-06-01,1990,Action
-66245,Arunachalam,1997-04-10,1990,Action
-602,Independence Day,1996-06-25,1990,Action
+564,The Mummy,1999-04-16,1990,Action
+18,The Fifth Element,1997-05-02,1990,Action
+2109,Rush Hour,1998-09-18,1990,Action
+9323,Ghost in the Shell,1995-11-18,1990,Action
+197,Braveheart,1995-05-24,1990,Action
+330,The Lost World: Jurassic Park,1997-05-23,1990,Action
+364,Batman Returns,1992-06-19,1990,Action
+1089,Point Break,1991-07-12,1990,Action
 36647,Blade,1998-08-21,1990,Action
-2061,Pusher,1996-08-30,1990,Action
+1637,Speed,1994-06-09,1990,Action
+755,From Dusk Till Dawn,1996-01-19,1990,Action
+9495,The Crow,1994-05-11,1990,Action
+602,Independence Day,1996-06-25,1990,Action
+8077,Alien³,1992-05-22,1990,Action
+319,True Romance,1993-09-09,1990,Action
+664,Twister,1996-05-10,1990,Action
+861,Total Recall,1990-06-01,1990,Action
+104,Run Lola Run,1998-08-20,1990,Action
+563,Starship Troopers,1997-11-07,1990,Action
+754,Face/Off,1997-06-27,1990,Action
+414,Batman Forever,1995-06-16,1990,Action
+8078,Alien Resurrection,1997-11-12,1990,Action
+415,Batman & Robin,1997-06-20,1990,Action
+11969,Tombstone,1993-12-25,1990,Action
+95,Armageddon,1998-07-01,1990,Action
+1573,Die Hard 2,1990-07-03,1990,Action
+9361,The Last of the Mohicans,1992-08-26,1990,Action
+9362,Tremors,1990-01-19,1990,Action
+1572,Die Hard: With a Vengeance,1995-05-19,1990,Action
+11782,Hard Boiled,1992-04-16,1990,Action
+14919,Batman: Mask of the Phantasm,1993-12-25,1990,Action
+710,GoldenEye,1995-11-16,1990,Action
+4951,10 Things I Hate About You,1999-03-30,1990,Comedy
+11104,Chungking Express,1994-07-14,1990,Comedy
+637,Life Is Beautiful,1997-12-20,1990,Comedy
+9571,Dazed and Confused,1993-09-24,1990,Comedy
+492,Being John Malkovich,1999-10-29,1990,Comedy
+11545,Rushmore,1998-12-11,1990,Comedy
+2907,The Addams Family,1991-11-22,1990,Comedy
+1878,Fear and Loathing in Las Vegas,1998-05-22,1990,Comedy
+788,Mrs. Doubtfire,1993-11-24,1990,Comedy
+10437,The Muppet Christmas Carol,1992-12-11,1990,Comedy
+9390,Jerry Maguire,1996-12-13,1990,Comedy
+99,All About My Mother,1999-04-16,1990,Comedy
+10377,My Cousin Vinny,1992-03-13,1990,Comedy
+858,Sleepless in Seattle,1993-06-24,1990,Comedy
+712,Four Weddings and a Funeral,1994-03-09,1990,Comedy
+4032,My Girl,1991-11-27,1990,Comedy
+13531,Empire Records,1995-09-22,1990,Comedy
+13685,Bottle Rocket,1996-02-21,1990,Comedy
+1811,Nowhere,1997-05-09,1990,Comedy
+9451,Election,1999-04-23,1990,Comedy
+862,Toy Story,1995-11-22,1990,Comedy
+771,Home Alone,1990-11-16,1990,Comedy
+509,Notting Hill,1999-05-21,1990,Comedy
+115,The Big Lebowski,1998-03-06,1990,Comedy
+114,Pretty Woman,1990-03-23,1990,Comedy
+863,Toy Story 2,1999-10-30,1990,Comedy
+20770,But I'm a Cheerleader,2000-07-07,1990,Comedy
+9820,The Parent Trap,1998-07-28,1990,Comedy
+772,Home Alone 2: Lost in New York,1992-11-15,1990,Comedy
+10830,Matilda,1996-08-02,1990,Comedy
+137,Groundhog Day,1993-02-11,1990,Comedy
+11970,Hercules,1997-06-13,1990,Comedy
+854,The Mask,1994-07-29,1990,Comedy
+196,Back to the Future Part III,1990-05-25,1990,Comedy
+10439,Hocus Pocus,1993-07-16,1990,Comedy
+9487,A Bug's Life,1998-11-25,1990,Comedy
+9614,Happy Gilmore,1996-02-16,1990,Comedy
+9374,Death Becomes Her,1992-07-30,1990,Comedy
+6435,Practical Magic,1998-10-16,1990,Comedy
+9489,You've Got Mail,1998-12-18,1990,Comedy
+550,Fight Club,1999-10-15,1990,Drama
+37165,The Truman Show,1998-06-04,1990,Drama
+13,Forrest Gump,1994-06-23,1990,Drama
+489,Good Will Hunting,1997-12-05,1990,Drama
+274,The Silence of the Lambs,1991-02-14,1990,Drama
 278,The Shawshank Redemption,1994-09-23,1990,Drama
 597,Titanic,1997-12-18,1990,Drama
-497,The Green Mile,1999-12-10,1990,Drama
 769,GoodFellas,1990-09-12,1990,Drama
-550,Fight Club,1999-10-15,1990,Drama
+76,Before Sunrise,1995-01-27,1990,Drama
+345,Eyes Wide Shut,1999-07-16,1990,Drama
 424,Schindler's List,1993-12-15,1990,Drama
-13,Forrest Gump,1994-06-23,1990,Drama
+1443,The Virgin Suicides,2000-04-21,1990,Drama
+3558,"Girl, Interrupted",1999-12-21,1990,Drama
 8587,The Lion King,1994-06-15,1990,Drama
-82545,Texasville,1990-09-28,1990,Drama
-9769,Lolita,1997-09-27,1990,Drama
-717586,The Alchemy of Ecstasy,1999-01-01,1990,Drama
-79871,Crazy Love,1993-04-17,1990,Drama
-489,Good Will Hunting,1997-12-05,1990,Drama
-105825,Erotic Ghost Story III,1992-03-05,1990,Drama
-244748,Swan Song,1992-01-01,1990,Drama
+162,Edward Scissorhands,1990-12-07,1990,Drama
+275,Fargo,1996-03-08,1990,Drama
+627,Trainspotting,1996-02-23,1990,Drama
+406,La Haine,1995-05-31,1990,Drama
 857,Saving Private Ryan,1998-07-24,1990,Drama
-60898,Erotic Ghost Story,1990-05-19,1990,Drama
-4951,10 Things I Hate About You,1999-03-30,1990,Drama
-37165,The Truman Show,1998-06-04,1990,Drama
-637,Life Is Beautiful,1997-12-20,1990,Drama
-680,Pulp Fiction,1994-09-10,1990,Comedy
-862,Toy Story,1995-11-22,1990,Comedy
-863,Toy Story 2,1999-10-30,1990,Comedy
-854,The Mask,1994-07-29,1990,Comedy
-249371,Spider and Rose,1994-09-14,1990,Comedy
-11970,Hercules,1997-06-13,1990,Comedy
-19404,Dilwale Dulhania Le Jayenge,1995-10-20,1990,Comedy
-2105,American Pie,1999-07-09,1990,Comedy
-772,Home Alone 2: Lost in New York,1992-11-15,1990,Comedy
-8467,Dumb and Dumber,1994-12-16,1990,Comedy
-9820,The Parent Trap,1998-07-28,1990,Comedy
-10830,Matilda,1996-08-02,1990,Comedy
-115,The Big Lebowski,1998-03-06,1990,Comedy
-788,Mrs. Doubtfire,1993-11-24,1990,Comedy
-137,Groundhog Day,1993-02-11,1990,Comedy
-10897,The Little Rascals,1994-08-05,1990,Comedy
-879,Hook,1991-04-10,1990,Comedy
-9487,A Bug's Life,1998-11-25,1990,Comedy
-10607,Don't Be a Menace to South Central While Drinking Your Juice in the Hood,1996-01-12,1990,Comedy
-11104,Chungking Express,1994-07-14,1990,Comedy
-646315,The Legendary Lighter,2019-10-29,2010,Action
-24428,The Avengers,2012-04-25,2010,Action
-299536,Avengers: Infinity War,2018-04-25,2010,Action
-181808,Star Wars: The Last Jedi,2017-12-13,2010,Action
-374720,Dunkirk,2017-07-19,2010,Action
-315635,Spider-Man: Homecoming,2017-07-05,2010,Action
-27205,Inception,2010-07-15,2010,Action
-299534,Avengers: Endgame,2019-04-24,2010,Action
-171776,Sparks,2013-03-01,2010,Action
+745,The Sixth Sense,1999-08-06,1990,Drama
+497,The Green Mile,1999-12-10,1990,Drama
+14,American Beauty,1999-09-15,1990,Drama
+629,The Usual Suspects,1995-07-19,1990,Drama
+334,Magnolia,1999-12-17,1990,Drama
+73,American History X,1998-07-01,1990,Drama
+4995,Boogie Nights,1997-10-07,1990,Drama
+524,Casino,1995-11-22,1990,Drama
+454,Romeo + Juliet,1996-11-01,1990,Drama
+1213,The Talented Mr. Ripley,1999-12-25,1990,Drama
+1541,Thelma & Louise,1991-05-24,1990,Drama
+10386,The Iron Giant,1999-08-06,1990,Drama
+1700,Misery,1990-11-30,1990,Drama
+2649,The Game,1997-09-12,1990,Drama
+184,Jackie Brown,1997-12-25,1990,Drama
+638,Lost Highway,1997-01-15,1990,Drama
+1923,Twin Peaks: Fire Walk with Me,1992-06-03,1990,Drama
+628,Interview with the Vampire,1994-11-11,1990,Drama
+9100,The Craft,1996-05-03,1990,Drama
+18491,Neon Genesis Evangelion: The End of Evangelion,1997-07-19,1990,Drama
+9837,The Prince of Egypt,1998-12-16,1990,Drama
+155,The Dark Knight,2008-07-16,2000,Action
+24,Kill Bill: Vol. 1,2003-10-10,2000,Action
+120,The Lord of the Rings: The Fellowship of the Ring,2001-12-18,2000,Action
+19995,Avatar,2009-12-16,2000,Action
+122,The Lord of the Rings: The Return of the King,2003-12-17,2000,Action
+557,Spider-Man,2002-05-01,2000,Action
+1895,Star Wars: Episode III - Revenge of the Sith,2005-05-17,2000,Action
+98,Gladiator,2000-05-04,2000,Action
+121,The Lord of the Rings: The Two Towers,2002-12-18,2000,Action
+670,Oldboy,2003-11-21,2000,Action
+1726,Iron Man,2008-04-30,2000,Action
+9806,The Incredibles,2004-10-27,2000,Action
+558,Spider-Man 2,2004-06-25,2000,Action
+272,Batman Begins,2005-06-10,2000,Action
+393,Kill Bill: Vol. 2,2004-04-16,2000,Action
+22,Pirates of the Caribbean: The Curse of the Black Pearl,2003-07-09,2000,Action
+1894,Star Wars: Episode II - Attack of the Clones,2002-05-15,2000,Action
+559,Spider-Man 3,2007-05-01,2000,Action
+58,Pirates of the Caribbean: Dead Man's Chest,2006-07-06,2000,Action
+752,V for Vendetta,2006-02-23,2000,Action
+4638,Hot Fuzz,2007-02-14,2000,Action
+36557,Casino Royale,2006-11-14,2000,Action
+9799,The Fast and the Furious,2001-06-22,2000,Action
+285,Pirates of the Caribbean: At World's End,2007-05-19,2000,Action
+36657,X-Men,2000-07-13,2000,Action
+1724,The Incredible Hulk,2008-06-12,2000,Action
+1858,Transformers,2007-06-27,2000,Action
+604,The Matrix Reloaded,2003-05-15,2000,Action
+9615,The Fast and the Furious: Tokyo Drift,2006-06-03,2000,Action
+2034,Training Day,2001-10-05,2000,Action
+180,Minority Report,2002-06-20,2000,Action
+1991,Death Proof,2007-05-22,2000,Action
+36658,X2,2003-04-27,2000,Action
+13183,Watchmen,2009-03-04,2000,Action
+10528,Sherlock Holmes,2009-12-23,2000,Action
+3176,Battle Royale,2000-12-16,2000,Action
+9738,Fantastic Four,2005-06-29,2000,Action
+1317499,My Poetic Works 300 Yen,2006-07-16,2000,Action
+2080,X-Men Origins: Wolverine,2009-04-28,2000,Action
+584,2 Fast 2 Furious,2003-06-05,2000,Action
+19913,(500) Days of Summer,2009-07-17,2000,Comedy
+10315,Fantastic Mr. Fox,2009-10-14,2000,Comedy
+2062,Ratatouille,2007-06-28,2000,Comedy
+10625,Mean Girls,2004-04-30,2000,Comedy
+350,The Devil Wears Prada,2006-06-29,2000,Comedy
+14160,Up,2009-05-28,2000,Comedy
+808,Shrek,2001-05-18,2000,Comedy
+9919,How to Lose a Guy in 10 Days,2003-02-07,2000,Comedy
+11631,Mamma Mia!,2008-07-03,2000,Comedy
+8363,Superbad,2007-08-17,2000,Comedy
+153,Lost in Translation,2003-09-18,2000,Comedy
+585,"Monsters, Inc.",2001-11-01,2000,Comedy
+194,Amélie,2001-04-25,2000,Comedy
+809,Shrek 2,2004-05-19,2000,Comedy
+7326,Juno,2007-12-05,2000,Comedy
+8835,Legally Blonde,2001-07-13,2000,Comedy
+10096,13 Going on 30,2004-04-13,2000,Comedy
+19994,Jennifer's Body,2009-09-18,2000,Comedy
+18785,The Hangover,2009-06-02,2000,Comedy
+920,Cars,2006-06-08,2000,Comedy
+118,Charlie and the Chocolate Factory,2005-07-13,2000,Comedy
+9502,Kung Fu Panda,2008-06-04,2000,Comedy
+12153,White Chicks,2004-06-23,2000,Comedy
+747,Shaun of the Dead,2004-04-09,2000,Comedy
+9880,The Princess Diaries,2001-08-03,2000,Comedy
+1584,School of Rock,2003-10-03,2000,Comedy
+8871,How the Grinch Stole Christmas,2000-11-17,2000,Comedy
+1581,The Holiday,2006-12-05,2000,Comedy
+19908,Zombieland,2009-10-02,2000,Comedy
+11544,Lilo & Stitch,2002-06-21,2000,Comedy
+10719,Elf,2003-11-07,2000,Comedy
+953,Madagascar,2005-05-25,2000,Comedy
+9655,She's the Man,2006-03-17,2000,Comedy
+425,Ice Age,2002-03-14,2000,Comedy
+10330,Freaky Friday,2003-08-05,2000,Comedy
+18240,The Proposal,2009-06-02,2000,Comedy
+9398,Zoolander,2001-09-28,2000,Comedy
+1593,Night at the Museum,2006-12-20,2000,Comedy
+1824,50 First Dates,2004-02-13,2000,Comedy
+11688,The Emperor's New Groove,2000-12-15,2000,Comedy
+38,Eternal Sunshine of the Spotless Mind,2004-03-19,2000,Drama
+1359,American Psycho,2000-04-13,2000,Drama
+16869,Inglourious Basterds,2009-08-02,2000,Drama
+141,Donnie Darko,2001-01-19,2000,Drama
+773,Little Miss Sunshine,2006-07-26,2000,Drama
+11036,The Notebook,2004-06-25,2000,Drama
+4348,Pride & Prejudice,2005-09-16,2000,Drama
+640,Catch Me If You Can,2002-12-16,2000,Drama
+641,Requiem for a Dream,2000-10-06,2000,Drama
+8966,Twilight,2008-11-20,2000,Drama
+142,Brokeback Mountain,2005-10-22,2000,Drama
+1124,The Prestige,2006-10-17,2000,Drama
+1018,Mulholland Drive,2001-06-06,2000,Drama
+7345,There Will Be Blood,2007-12-26,2000,Drama
+1422,The Departed,2006-10-04,2000,Drama
+843,In the Mood for Love,2000-09-29,2000,Drama
+423,The Pianist,2002-09-17,2000,Drama
+598,City of God,2002-08-30,2000,Drama
+11423,Memories of Murder,2003-04-25,2000,Drama
+508,Love Actually,2003-09-07,2000,Drama
+9428,The Royal Tenenbaums,2001-10-05,2000,Drama
+80,Before Sunset,2004-06-16,2000,Drama
+787,Mr. & Mrs. Smith,2005-06-07,2000,Drama
+1417,Pan's Labyrinth,2006-10-11,2000,Drama
+786,Almost Famous,2000-09-15,2000,Drama
+14926,Uptown Girls,2003-08-15,2000,Drama
+1887,Marie Antoinette,2006-05-24,2000,Drama
+8051,Punch-Drunk Love,2002-10-11,2000,Drama
+1402,The Pursuit of Happyness,2006-12-14,2000,Drama
+11171,Mysterious Skin,2005-03-30,2000,Drama
+18239,The Twilight Saga: New Moon,2009-11-18,2000,Drama
+4347,Atonement,2007-02-27,2000,Drama
+4922,The Curious Case of Benjamin Button,2008-12-25,2000,Drama
+634,Bridget Jones's Diary,2001-04-13,2000,Drama
+14574,The Boy in the Striped Pyjamas,2008-05-07,2000,Drama
+11023,Thirteen,2003-08-20,2000,Drama
+8358,Cast Away,2000-12-22,2000,Drama
+5915,Into the Wild,2007-09-21,2000,Drama
+1391,Y Tu Mamá También,2001-06-08,2000,Drama
+824,Moulin Rouge!,2001-05-18,2000,Drama
 324857,Spider-Man: Into the Spider-Verse,2018-12-06,2010,Action
-102382,The Amazing Spider-Man 2,2014-04-16,2010,Action
+27205,Inception,2010-07-15,2010,Action
+299536,Avengers: Infinity War,2018-04-25,2010,Action
+299534,Avengers: Endgame,2019-04-24,2010,Action
+339403,Baby Driver,2017-06-28,2010,Action
+70160,The Hunger Games,2012-03-12,2010,Action
+22538,Scott Pilgrim vs. the World,2010-08-12,2010,Action
+118340,Guardians of the Galaxy,2014-07-30,2010,Action
+284054,Black Panther,2018-02-13,2010,Action
+293660,Deadpool,2016-02-09,2010,Action
+315635,Spider-Man: Homecoming,2017-07-05,2010,Action
+24428,The Avengers,2012-04-25,2010,Action
 76341,Mad Max: Fury Road,2015-05-13,2010,Action
-49026,The Dark Knight Rises,2012-07-17,2010,Action
+101299,The Hunger Games: Catching Fire,2013-11-15,2010,Action
 429617,Spider-Man: Far From Home,2019-06-28,2010,Action
-1930,The Amazing Spider-Man,2012-06-23,2010,Action
-122917,The Hobbit: The Battle of the Five Armies,2014-12-10,2010,Action
-10138,Iron Man 2,2010-04-28,2010,Action
-351286,Jurassic World: Fallen Kingdom,2018-06-06,2010,Action
-177572,Big Hero 6,2014-10-24,2010,Action
 271110,Captain America: Civil War,2016-04-27,2010,Action
-157336,Interstellar,2014-11-05,2010,Drama
-475557,Joker,2019-10-01,2010,Drama
-496243,Parasite,2019-05-30,2010,Drama
-372058,Your Name.,2016-08-26,2010,Drama
-335984,Blade Runner 2049,2017-10-04,2010,Drama
-245700,Mr. Turner,2014-10-31,2010,Drama
-324786,Hacksaw Ridge,2016-10-07,2010,Drama
-106646,The Wolf of Wall Street,2013-12-25,2010,Drama
-244786,Whiplash,2014-10-10,2010,Drama
-286687,Love Lesson,2013-12-05,2010,Drama
-216015,Fifty Shades of Grey,2015-02-11,2010,Drama
-150540,Inside Out,2015-06-17,2010,Drama
-273248,The Hateful Eight,2015-12-25,2010,Drama
-331482,Little Women,2019-12-25,2010,Drama
-329865,Arrival,2016-11-10,2010,Drama
-228150,Fury,2014-10-15,2010,Drama
-269955,Obsessed,2014-05-14,2010,Drama
-286217,The Martian,2015-09-30,2010,Drama
-447332,A Quiet Place,2018-04-03,2010,Drama
-205596,The Imitation Game,2014-11-14,2010,Drama
-269149,Zootopia,2016-02-11,2010,Comedy
-567609,Ready or Not,2019-08-21,2010,Comedy
-378236,The Emoji Movie,2017-07-23,2010,Comedy
-293660,Deadpool,2016-02-09,2010,Comedy
-82690,Wreck-It Ralph,2012-11-01,2010,Comedy
-284053,Thor: Ragnarok,2017-10-02,2010,Comedy
-214756,Ted 2,2015-06-25,2010,Comedy
-297090,The Torture Club,2014-07-19,2010,Comedy
-466272,Once Upon a Time... in Hollywood,2019-07-24,2010,Comedy
-313369,La La Land,2016-12-01,2010,Comedy
-383498,Deadpool 2,2018-05-15,2010,Comedy
+374720,Dunkirk,2017-07-19,2010,Action
+283995,Guardians of the Galaxy Vol. 2,2017-04-19,2010,Action
+245891,John Wick,2014-10-22,2010,Action
+100402,Captain America: The Winter Soldier,2014-03-20,2010,Action
+1930,The Amazing Spider-Man,2012-06-23,2010,Action
+284052,Doctor Strange,2016-10-25,2010,Action
+99861,Avengers: Age of Ultron,2015-04-22,2010,Action
+140607,Star Wars: The Force Awakens,2015-12-15,2010,Action
+1771,Captain America: The First Avenger,2011-07-22,2010,Action
+383498,Deadpool 2,2018-05-15,2010,Action
+330459,Rogue One: A Star Wars Story,2016-12-14,2010,Action
+10138,Iron Man 2,2010-04-28,2010,Action
+131634,The Hunger Games: Mockingjay - Part 2,2015-11-18,2010,Action
+198663,The Maze Runner,2014-09-10,2010,Action
+102899,Ant-Man,2015-07-14,2010,Action
+181808,Star Wars: The Last Jedi,2017-12-13,2010,Action
+299537,Captain Marvel,2019-03-06,2010,Action
+68721,Iron Man 3,2013-04-18,2010,Action
+290250,The Nice Guys,2016-05-15,2010,Action
+102382,The Amazing Spider-Man 2,2014-04-16,2010,Action
+10195,Thor,2011-04-21,2010,Action
+207703,Kingsman: The Secret Service,2015-01-24,2010,Action
+297761,Suicide Squad,2016-08-03,2010,Action
+396535,Train to Busan,2016-07-20,2010,Action
+496243,Parasite,2019-05-30,2010,Comedy
+106646,The Wolf of Wall Street,2013-12-25,2010,Comedy
 546554,Knives Out,2019-11-27,2010,Comedy
-10193,Toy Story 3,2010-06-16,2010,Comedy
-77338,The Intouchables,2011-11-02,2010,Comedy
-72105,Ted,2012-06-29,2010,Comedy
-384018,Fast & Furious Presents: Hobbs & Shaw,2019-07-31,2010,Comedy
-301528,Toy Story 4,2019-06-19,2010,Comedy
 120467,The Grand Budapest Hotel,2014-02-26,2010,Comedy
-260514,Cars 3,2017-06-15,2010,Comedy
-49013,Cars 2,2011-06-11,2010,Comedy
+391713,Lady Bird,2017-09-01,2010,Comedy
+150540,Inside Out,2015-06-17,2010,Comedy
+515001,Jojo Rabbit,2019-10-18,2010,Comedy
+284053,Thor: Ragnarok,2017-10-02,2010,Comedy
+269149,Zootopia,2016-02-11,2010,Comedy
+50646,"Crazy, Stupid, Love.",2011-07-29,2010,Comedy
+399174,Isle of Dogs,2018-03-23,2010,Comedy
+277834,Moana,2016-10-13,2010,Comedy
+177572,Big Hero 6,2014-10-24,2010,Comedy
+10193,Toy Story 3,2010-06-16,2010,Comedy
+567609,Ready or Not,2019-08-21,2010,Comedy
+114150,Pitch Perfect,2012-09-28,2010,Comedy
+93456,Despicable Me 2,2013-06-26,2010,Comedy
+137106,The Lego Movie,2014-02-06,2010,Comedy
+37735,Easy A,2010-09-16,2010,Comedy
+466282,To All the Boys I've Loved Before,2018-08-17,2010,Comedy
+505600,Booksmart,2019-05-24,2010,Comedy
+59436,Midnight in Paris,2011-05-11,2010,Comedy
+324849,The Lego Batman Movie,2017-02-08,2010,Comedy
+301528,Toy Story 4,2019-06-19,2010,Comedy
+121986,Frances Ha,2013-05-17,2010,Comedy
+38055,Megamind,2010-10-28,2010,Comedy
+82690,Wreck-It Ralph,2012-11-01,2010,Comedy
+116745,The Secret Life of Walter Mitty,2013-12-18,2010,Comedy
+20352,Despicable Me,2010-07-08,2010,Comedy
+455207,Crazy Rich Asians,2018-08-15,2010,Comedy
+116149,Paddington,2014-11-24,2010,Comedy
+246741,What We Do in the Shadows,2014-06-19,2010,Comedy
+458423,Mamma Mia! Here We Go Again,2018-07-18,2010,Comedy
+508965,Klaus,2019-11-08,2010,Comedy
+200727,"Love, Rosie",2014-10-16,2010,Comedy
+55721,Bridesmaids,2011-05-13,2010,Comedy
+49444,Kung Fu Panda 2,2011-05-25,2010,Comedy
+424781,Sorry to Bother You,2018-07-06,2010,Comedy
+138832,We're the Millers,2013-08-07,2010,Comedy
+45243,The Hangover Part II,2011-05-25,2010,Comedy
+157336,Interstellar,2014-11-05,2010,Drama
+313369,La La Land,2016-12-01,2010,Drama
+244786,Whiplash,2014-10-10,2010,Drama
+475557,Joker,2019-10-01,2010,Drama
+530385,Midsommar,2019-07-03,2010,Drama
+44214,Black Swan,2010-12-03,2010,Drama
+84892,The Perks of Being a Wallflower,2012-09-20,2010,Drama
+398818,Call Me by Your Name,2017-10-01,2010,Drama
+11324,Shutter Island,2010-02-14,2010,Drama
+331482,Little Women,2019-12-25,2010,Drama
+210577,Gone Girl,2014-10-01,2010,Drama
+466272,Once Upon a Time... in Hollywood,2019-07-24,2010,Drama
+68718,Django Unchained,2012-12-25,2010,Drama
+37799,The Social Network,2010-10-01,2010,Drama
+152601,Her,2013-12-18,2010,Drama
+329865,Arrival,2016-11-10,2010,Drama
+335984,Blade Runner 2049,2017-10-04,2010,Drama
+346364,It,2017-09-06,2010,Drama
+146233,Prisoners,2013-09-19,2010,Drama
+64690,Drive,2011-09-15,2010,Drama
+451915,Beautiful Boy,2018-10-12,2010,Drama
+503919,The Lighthouse,2019-10-18,2010,Drama
+376867,Moonlight,2016-10-21,2010,Drama
+473033,Uncut Gems,2019-08-30,2010,Drama
+530915,1917,2019-12-25,2010,Drama
+242582,Nightcrawler,2014-10-23,2010,Drama
+531428,Portrait of a Lady on Fire,2019-09-06,2010,Drama
+122906,About Time,2013-09-04,2010,Drama
+49026,The Dark Knight Rises,2012-07-17,2010,Drama
+447332,A Quiet Place,2018-04-03,2010,Drama
+526667,The Witch,2015-06-23,2010,Drama
+286217,The Martian,2015-09-30,2010,Drama
+424694,Bohemian Rhapsody,2018-10-24,2010,Drama
+372058,Your Name.,2016-08-26,2010,Drama
+492188,Marriage Story,2019-09-28,2010,Drama
+254320,The Lobster,2015-10-15,2010,Drama
+64682,The Great Gatsby,2013-05-09,2010,Drama
+394117,The Florida Project,2017-10-06,2010,Drama
+334541,Manchester by the Sea,2016-11-17,2010,Drama
+389015,"I, Tonya",2017-12-07,2010,Drama
