@@ -77,6 +77,31 @@ for decade in sorted(merged_df["decade"].unique()):
     except Exception as e:
         print(f"Assortativity calculation failed: {e}")
 
+    # centrality
+    degree_cent = nx.degree_centrality(G)
+    betweenness_cent = nx.betweenness_centrality(G)
+
+    centrality_rows = []
+    for node in G.nodes():
+        centrality_rows.append({
+            "decade": int(decade),
+            "actor_name": node,
+            "main_genre": actor_main_genre[node],
+            "degree_centrality": degree_cent[node],
+            "betweenness_centrality": betweenness_cent[node]
+        })
+
+    centrality_df = pd.DataFrame(centrality_rows)
+    centrality_df = centrality_df.sort_values(
+        by="degree_centrality",
+        ascending=False
+    )
+
+    centrality_df.to_csv(
+        os.path.join(DATA_DIR, f"{int(decade)}s_centrality.csv"),
+        index=False
+    )
+
 
     # give node color by main genre
     node_colors = []
