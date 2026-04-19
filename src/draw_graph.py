@@ -5,6 +5,8 @@ import networkx as nx
 import matplotlib.pyplot as plt
 from collections import Counter, defaultdict
 
+
+
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 DATA_DIR = os.path.join(BASE_DIR, "data")
 OUTPUT_DIR = os.path.join(BASE_DIR, "output")
@@ -12,6 +14,7 @@ OUTPUT_DIR = os.path.join(BASE_DIR, "output")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 movies_df = pd.read_csv(os.path.join(DATA_DIR, "movies.csv"))
+# genre_df = pd.read_csv(os.path.join(DATA_DIR, "genre.csv"))
 cast_df = pd.read_csv(os.path.join(DATA_DIR, "cast.csv"))
 
 # merge cast and movie data
@@ -21,7 +24,7 @@ merged_df = cast_df.merge(
 )
 
 
-# set color for genres
+#set color for genres
 genre_colors = {
     "Action": "red",
     "Drama": "blue",
@@ -39,7 +42,6 @@ for decade in sorted(merged_df["decade"].unique()):
 
     for _, row in decade_df.iterrows():
         actor_genre_counts[row["actor_name"]].append(row["genre"])
-
     actor_main_genre = {}
     for actor, genres in actor_genre_counts.items():
         actor_main_genre[actor] = Counter(genres).most_common(1)[0][0]
@@ -58,11 +60,11 @@ for decade in sorted(merged_df["decade"].unique()):
                 G.add_edge(a, b, weight=1)
 
     nx.set_node_attributes(G, actor_main_genre, "main_genre")
-
     print(f"\n=== {decade}s ===")
     print("Nodes:", G.number_of_nodes())
     print("Edges:", G.number_of_edges())
     print("Connected components:", nx.number_connected_components(G))
+
 
 
     try:
@@ -77,30 +79,31 @@ for decade in sorted(merged_df["decade"].unique()):
     except Exception as e:
         print(f"Assortativity calculation failed: {e}")
 
-    # centrality
-    degree_cent = nx.degree_centrality(G)
-    betweenness_cent = nx.betweenness_centrality(G)
+    # # centrality
+    # degree_cent = nx.degree_centrality(G)
+    # betweenness_cent = nx.betweenness_centrality(G)
 
-    centrality_rows = []
-    for node in G.nodes():
-        centrality_rows.append({
-            "decade": int(decade),
-            "actor_name": node,
-            "main_genre": actor_main_genre[node],
-            "degree_centrality": degree_cent[node],
-            "betweenness_centrality": betweenness_cent[node]
-        })
+    # centrality_rows = []
+    # for node in G.nodes():
+    #     centrality_rows.append({
+    #         "decade": int(decade),
+    #         "actor_name": node,
+    #         "main_genre": actor_main_genre[node],
+    #         "degree_centrality": degree_cent[node],
+    #         "betweenness_centrality": betweenness_cent[node]
+    #     })
 
-    centrality_df = pd.DataFrame(centrality_rows)
-    centrality_df = centrality_df.sort_values(
-        by="degree_centrality",
-        ascending=False
-    )
+    # centrality_df = pd.DataFrame(centrality_rows)
+    # centrality_df = centrality_df.sort_values(
+    #     by="degree_centrality",
+    #     ascending=False
+    # )
 
-    centrality_df.to_csv(
-        os.path.join(DATA_DIR, f"{int(decade)}s_centrality.csv"),
-        index=False
-    )
+    # centrality_df.to_csv(
+    #     os.path.join(DATA_DIR, f"{int(decade)}s_centrality.csv"),
+    #     index=False
+    # )
+
 
 
     # give node color by main genre
@@ -109,9 +112,9 @@ for decade in sorted(merged_df["decade"].unique()):
         main_genre = actor_main_genre[node]
         node_colors.append(genre_colors[main_genre])
 
-
     # give edge widths by weight
     edge_widths = [G[u][v]["weight"] * 1.5 for u, v in G.edges()]
+
 
 
     # draw graph
@@ -142,6 +145,8 @@ for decade in sorted(merged_df["decade"].unique()):
     #     font_size=8
     # )
 
+
+
     # legend
     for genre, color in genre_colors.items():
         plt.scatter([], [], c=color, label=genre)
@@ -154,4 +159,7 @@ for decade in sorted(merged_df["decade"].unique()):
         os.path.join(OUTPUT_DIR, f"{int(decade)}s_actor_network_by_genre.png"),
         dpi=300
     )
+
+
     plt.show()
+

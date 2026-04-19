@@ -35,6 +35,7 @@ def get_json(url, params=None):
     r.raise_for_status()
     return r.json()
 
+# parse movie from line
 def parse_movie_line(line):
     line = line.strip()
     if not line:
@@ -48,6 +49,8 @@ def parse_movie_line(line):
     year = int(match.group(2))
     return title, year
 
+
+# read locally instead
 def read_movie_list(filepath):
     movies = []
     with open(filepath, "r", encoding="utf-8") as f:
@@ -57,18 +60,24 @@ def read_movie_list(filepath):
                 movies.append((title, year))
     return movies
 
+
 def search_movie(title, year=None):
     params = {
         "query": title,
         "include_adult": "false"
     }
 
+# def search_movie(title, year=None):
+#     params = {
+#         "query": title,
+#         "include_adult": "true"
+#     }
+
+
     if year is not None:
         params["year"] = year
-
     data = get_json(f"{BASE_URL}/search/movie", params=params)
     results = data.get("results", [])
-
     if not results:
         return None
 
@@ -82,14 +91,12 @@ def search_movie(title, year=None):
                 movie_year = int(release_date[:4])
             except ValueError:
                 pass
-
         if movie_title == title.strip().lower() and movie_year == year:
             return movie
 
     for movie in results:
         release_date = movie.get("release_date", "")
         movie_year = None
-
         if release_date and len(release_date) >= 4:
             try:
                 movie_year = int(release_date[:4])
@@ -99,6 +106,7 @@ def search_movie(title, year=None):
         if movie_year == year:
             return movie
 
+
     return results[0]
 
 movies_rows = []
@@ -107,16 +115,17 @@ seen_movie_ids = set()
 
 print("Reading local movie lists...", flush=True)
 
+# read lists and go search
 for (decade, genre), filename in LIST_FILES.items():
     filepath = os.path.join(DATA_DIR, filename)
-
     print(f"\nLoading {filename}...", flush=True)
 
     local_movies = read_movie_list(filepath)
 
     for i, (title, year) in enumerate(local_movies, start=1):
-        print(f"  [{i}/{len(local_movies)}] Searching: {title} ({year})", flush=True)
+        # print(year)
 
+        print(f"  [{i}/{len(local_movies)}] Searching: {title} ({year})", flush=True)
         movie = search_movie(title, year)
 
         if movie is None:
@@ -126,13 +135,11 @@ for (decade, genre), filename in LIST_FILES.items():
         movie_id = movie.get("id")
         tmdb_title = movie.get("title", "")
         release_date = movie.get("release_date", "")
-
         if movie_id in seen_movie_ids:
             print(f"    Skipped duplicate movie id: {tmdb_title}", flush=True)
             continue
 
         seen_movie_ids.add(movie_id)
-
         movies_rows.append({
             "movie_id": movie_id,
             "title": tmdb_title,
@@ -141,9 +148,10 @@ for (decade, genre), filename in LIST_FILES.items():
             "genre": genre
         })
 
+
+        # get credits
         credits = get_json(f"{BASE_URL}/movie/{movie_id}/credits")
         cast_list = credits.get("cast", [])[:TOP_CAST]
-
         for actor in cast_list:
             cast_rows.append({
                 "movie_id": movie_id,
@@ -152,10 +160,15 @@ for (decade, genre), filename in LIST_FILES.items():
                 "actor_name": actor.get("name", "")
             })
 
+        # slow
         time.sleep(0.15)
+
+
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
+# write to csvs
+# movies.csv
 with open(os.path.join(OUTPUT_DIR, "movies.csv"), "w", newline="", encoding="utf-8") as f:
     writer = csv.DictWriter(
         f,
@@ -164,6 +177,8 @@ with open(os.path.join(OUTPUT_DIR, "movies.csv"), "w", newline="", encoding="utf
     writer.writeheader()
     writer.writerows(movies_rows)
 
+
+# cast.csv
 with open(os.path.join(OUTPUT_DIR, "cast.csv"), "w", newline="", encoding="utf-8") as f:
     writer = csv.DictWriter(
         f,
@@ -171,6 +186,8 @@ with open(os.path.join(OUTPUT_DIR, "cast.csv"), "w", newline="", encoding="utf-8
     )
     writer.writeheader()
     writer.writerows(cast_rows)
+
+
 
 print("\nDone.", flush=True)
 print(f"movies.csv saved to: {OUTPUT_DIR}", flush=True)
